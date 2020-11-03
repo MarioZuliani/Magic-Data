@@ -87,3 +87,20 @@ setMTG$Evenness <- Evenness
 ##Merge Data back to the main dataset
 finalMTG <- merge(MTG_norep, setMTG)
 ```
+###Data Viz
+```{r}
+Evenness <- ggplot(finalMTG, aes(total, Evenness, color = rarity)) + 
+  geom_point(size = 1.5) +
+  facet_wrap(~set) +
+  scale_color_brewer(palette = "Set1") + theme_classic() + 
+  geom_smooth(method = lm, se = TRUE) + 
+  labs(x = "Total Cards", y = "Evenness")
+Evenness
+```
+###Stats
+```{r}
+m1 <- glm(Evenness ~ set*rarity, family = "quasipoisson", data = finalMTG)
+anova(m1, test = "Chisq")
+e1 <- emmeans(m1, pairwise~set|rarity)
+e1
+```
