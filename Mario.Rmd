@@ -17,42 +17,70 @@ setwd("/R Packages/Magic The Gathering")
 ## Load Magic Dataset
 The following dataset was compiled by opening 15 draft booster boxes from recent Magic the Gathering Standard sets. 5 Boxes of Ikoria: Lair of Behemoths, 5 of Core 2021, and 5 of Zendikar Rising. Packs were opened and all cards inputted for the exception of tokens and basic land cards.
 ```{r cars}
-MTG <- read.csv("AIF Magic Datasheet.csv")
+MTG <- read.csv("MTG_data.csv")
 MTG <- MTG %>%
-  group_by(Card_Set, Box_Number, Card_Name, Rarity, Card_Type, Finish, Quantity, Price) %>%
-  summarise(Total = sum(Quantity))
+  group_by(set, rep, card_name, rarity, card_type, finish, n, price) %>%
+  summarise(total = sum(n))
 ```
+
 ##Vegan Set-up
 ```{r}
+###Group main Data by Set, Box, Rarity, Card Type, Finish, Total number and Price
 MTG_Vegan <- MTG %>%
-  group_by(Card_Set, Box_Number, Card_Name, Rarity, Card_Type, Finish, Quantity, Price) %>%
-  summarise(Total = sum(Quantity))
+  group_by(set, rep, rarity, card_type, card_name, finish, total, price) 
 
-MTG_Vegan$Rarity <- gsub(" ", "", MTG_Vegan$Rarity)
-MTG_Vegan$Rarity <- as.factor(MTG_Vegan$Rarity)
-MTG_Vegan$uniID <- paste(MTG_Vegan$Card_Set, MTG_Vegan$Box_Number)
+MTG_Vegan$rarity <- gsub(" ", "", MTG_Vegan$rarity)
+MTG_Vegan$rarity <- as.factor(MTG_Vegan$rarity)
+MTG_Vegan$uniID <- paste(MTG_Vegan$set, MTG_Vegan$rarity)
 str(MTG_Vegan)
 
+###Ungroup all and select the Unique ID, n, and total of specific card per box
 library(dplyr)
 MTG_Vegan <- MTG_Vegan %>% 
   ungroup()%>%
-  dplyr::select(uniID, Card_Set, Box_Number, Card_Name, Rarity, Quantity)
-MTG_Vegan <- MTG_Vegan %>% group_by(uniID, Card_Name, Rarity) %>% summarise(Total = sum(Quantity))
+  dplyr::select(uniID, n, total)
+MTG_Vegan <- MTG_Vegan %>% group_by(uniID, total) %>% summarise(Total = sum(n))
 
 MTG_Vegan
-
-commMTG <- MTG_Vegan %>% spread(Card_Name, Total)
+###Spread the Data
+commMTG <- MTG_Vegan %>% spread(total, Total)
 commMTG[is.na(commMTG)] <- 0
 
+##Drop Unique ID
 commMTG <- commMTG %>%
   ungroup() %>%
-  dplyr::select(-uniID, -Rarity)
+  dplyr::select(-uniID)
 
 commMTG
 
+##Set up a mini-dataset to join the calculations to after. This dataset broken up by set and rarity.
+setMTG <- MTG %>%
+  group_by(set, rarity) %>%
+  summarise(Total = sum(n))
+
+setMTG$Total <- gsub(" ", "", setMTG$Total)
+setMTG$Total <- as.factor(setMTG$Total)
+setMTG$uniID <- paste(setMTG$set, setMTG$rarity)
+str(setMTG)
+
+setMTG <- setMTG %>%
+  ungroup()%>%
+  dplyr::select(uniID, set, rarity, Total)
+setMTG <- setMTG %>% group_by(uniID, rarity)
+
+setMTG <- setMTG %>%
+  ungroup() %>%
+  dplyr::select(-uniID)
+
+##Run Simpsons test and Evenness for community data
+##Note: Since many Mythics were only pulled ONCE during openings, many of the Simpsons and evenness calculations for Mythic cards result in either a 0 or NA
 simpsonfinal <- diversity(commMTG, index = "simpson")
 Hfinal <- diversity(commMTG)
 Sfinal <- specnumber(commMTG)
-Evenness <- Hfinal/log(Sfinal)
-```
+Evenness <- Hfinal/log(Sfinal) 
+setMTG$Simpson <- simpsonfinal
+setMTG$Evenness <- Evenness
 
+##Merge Data back to the main dataset
+finalMTG <- merge(MTG, setMTG)
+```
