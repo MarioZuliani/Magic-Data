@@ -1,0 +1,58 @@
+---
+title: "Mario"
+author: "Mario"
+date: '2020-11-02'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(ggplot2)
+library(tidyverse)
+library(dplyr)
+library(vegan)
+library(emmeans)
+setwd("/R Packages/Magic The Gathering")
+```
+
+## Load Magic Dataset
+The following dataset was compiled by opening 15 draft booster boxes from recent Magic the Gathering Standard sets. 5 Boxes of Ikoria: Lair of Behemoths, 5 of Core 2021, and 5 of Zendikar Rising. Packs were opened and all cards inputted for the exception of tokens and basic land cards.
+```{r cars}
+MTG <- read.csv("AIF Magic Datasheet.csv")
+MTG <- MTG %>%
+  group_by(Card_Set, Box_Number, Card_Name, Rarity, Card_Type, Finish, Quantity, Price) %>%
+  summarise(Total = sum(Quantity))
+```
+##Vegan Set-up
+```{r}
+MTG_Vegan <- MTG %>%
+  group_by(Card_Set, Box_Number, Card_Name, Rarity, Card_Type, Finish, Quantity, Price) %>%
+  summarise(Total = sum(Quantity))
+
+MTG_Vegan$Rarity <- gsub(" ", "", MTG_Vegan$Rarity)
+MTG_Vegan$Rarity <- as.factor(MTG_Vegan$Rarity)
+MTG_Vegan$uniID <- paste(MTG_Vegan$Card_Set, MTG_Vegan$Box_Number)
+str(MTG_Vegan)
+
+library(dplyr)
+MTG_Vegan <- MTG_Vegan %>% 
+  ungroup()%>%
+  dplyr::select(uniID, Card_Set, Box_Number, Card_Name, Rarity, Quantity)
+MTG_Vegan <- MTG_Vegan %>% group_by(uniID, Card_Name, Rarity) %>% summarise(Total = sum(Quantity))
+
+MTG_Vegan
+
+commMTG <- MTG_Vegan %>% spread(Card_Name, Total)
+commMTG[is.na(commMTG)] <- 0
+
+commMTG <- commMTG %>%
+  ungroup() %>%
+  dplyr::select(-uniID, -Rarity)
+
+commMTG
+
+simpsonfinal <- diversity(commMTG, index = "simpson")
+Hfinal <- diversity(commMTG)
+Sfinal <- specnumber(commMTG)
+Evenness <- Hfinal/log(Sfinal)
+```
+
