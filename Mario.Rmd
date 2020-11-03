@@ -21,13 +21,16 @@ MTG <- read.csv("MTG_data.csv")
 MTG <- MTG %>%
   group_by(set, rep, card_name, rarity, card_type, finish, n, price) %>%
   summarise(total = sum(n))
+MTG_norep <- MTG %>%
+  group_by(set, card_name, rarity, card_type, finish, n, price) %>%
+  summarise(total = sum(n))
 ```
 
 ##Vegan Set-up
 ```{r}
-###Group main Data by Set, Box, Rarity, Card Type, Finish, Total number and Price
-MTG_Vegan <- MTG %>%
-  group_by(set, rep, rarity, card_type, card_name, finish, total, price) 
+###Group main Data by Set, Rarity, Card Type, Finish, Total number and Price. Rep was removed from this dataset.
+MTG_Vegan <- MTG_norep %>%
+  group_by(set, rarity, card_type, card_name, finish, total, price) 
 
 MTG_Vegan$rarity <- gsub(" ", "", MTG_Vegan$rarity)
 MTG_Vegan$rarity <- as.factor(MTG_Vegan$rarity)
@@ -82,5 +85,5 @@ setMTG$Simpson <- simpsonfinal
 setMTG$Evenness <- Evenness
 
 ##Merge Data back to the main dataset
-finalMTG <- merge(MTG, setMTG)
+finalMTG <- merge(MTG_norep, setMTG)
 ```

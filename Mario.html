@@ -137,137 +137,139 @@ MTG &lt;- MTG %&gt;%
   group_by(set, rep, card_name, rarity, card_type, finish, n, price) %&gt;%
   summarise(total = sum(n))</code></pre>
 <pre><code>## `summarise()` regrouping output by 'set', 'rep', 'card_name', 'rarity', 'card_type', 'finish', 'n' (override with `.groups` argument)</code></pre>
+<pre class="r"><code>MTG_norep &lt;- MTG %&gt;%
+  group_by(set, card_name, rarity, card_type, finish, n, price) %&gt;%
+  summarise(total = sum(n))</code></pre>
+<pre><code>## `summarise()` regrouping output by 'set', 'card_name', 'rarity', 'card_type', 'finish', 'n' (override with `.groups` argument)</code></pre>
 </div>
 <div id="vegan-set-up" class="section level2">
 <h2>Vegan Set-up</h2>
-<pre class="r"><code>###Group main Data by Set, Box, Rarity, Card Type, Finish, Total number and Price
-MTG_Vegan &lt;- MTG %&gt;%
-  group_by(set, rep, rarity, card_type, card_name, finish, total, price) 
+<pre class="r"><code>###Group main Data by Set, Rarity, Card Type, Finish, Total number and Price. Rep was removed from this dataset.
+MTG_Vegan &lt;- MTG_norep %&gt;%
+  group_by(set, rarity, card_type, card_name, finish, total, price) 
 
 MTG_Vegan$rarity &lt;- gsub(&quot; &quot;, &quot;&quot;, MTG_Vegan$rarity)
 MTG_Vegan$rarity &lt;- as.factor(MTG_Vegan$rarity)
 MTG_Vegan$uniID &lt;- paste(MTG_Vegan$set, MTG_Vegan$rarity)
 str(MTG_Vegan)</code></pre>
-<pre><code>## tibble [3,566 × 10] (S3: grouped_df/tbl_df/tbl/data.frame)
+<pre><code>## tibble [995 × 9] (S3: grouped_df/tbl_df/tbl/data.frame)
 ##  $ set      : Factor w/ 3 levels &quot;Core 2021&quot;,&quot;Ikoria: Lair of Behemoths&quot;,..: 1 1 1 1 1 1 1 1 1 1 ...
-##  $ rep      : int [1:3566] 1 1 1 1 1 1 1 1 1 1 ...
-##  $ card_name: Factor w/ 763 levels &quot;Acquisitions Expert&quot;,..: 10 14 15 19 20 21 24 32 36 38 ...
-##  $ rarity   : Factor w/ 4 levels &quot;Common&quot;,&quot;Mythic&quot;,..: 1 4 1 4 3 1 4 4 4 2 ...
-##  $ card_type: Factor w/ 10 levels &quot;Artifact&quot;,&quot;Artifact Creature&quot;,..: 7 3 3 7 8 3 3 3 10 3 ...
-##  $ finish   : Factor w/ 11 levels &quot;Alternate art&quot;,..: 8 8 8 8 8 8 8 8 8 8 ...
-##  $ n        : int [1:3566] 1 1 1 1 1 1 1 1 1 1 ...
-##  $ price    : num [1:3566] 0.15 0.25 0.15 0.25 0.75 0.15 0.25 0.25 0.25 3 ...
-##  $ total    : int [1:3566] 3 1 5 1 2 3 2 1 1 1 ...
-##  $ uniID    : chr [1:3566] &quot;Core 2021 Common&quot; &quot;Core 2021 Uncommon&quot; &quot;Core 2021 Common&quot; &quot;Core 2021 Uncommon&quot; ...
-##  - attr(*, &quot;groups&quot;)= tibble [3,566 × 9] (S3: tbl_df/tbl/data.frame)
+##  $ card_name: Factor w/ 763 levels &quot;Acquisitions Expert&quot;,..: 10 14 14 15 19 20 21 24 32 34 ...
+##  $ rarity   : Factor w/ 4 levels &quot;Common&quot;,&quot;Mythic&quot;,..: 1 4 4 1 4 3 1 4 4 3 ...
+##  $ card_type: Factor w/ 10 levels &quot;Artifact&quot;,&quot;Artifact Creature&quot;,..: 7 3 3 3 7 8 3 3 3 3 ...
+##  $ finish   : Factor w/ 11 levels &quot;Alternate art&quot;,..: 8 5 8 8 8 8 8 8 8 8 ...
+##  $ n        : int [1:995] 1 1 1 1 1 1 1 1 1 1 ...
+##  $ price    : num [1:995] 0.15 0.5 0.25 0.15 0.25 0.75 0.15 0.25 0.25 13 ...
+##  $ total    : int [1:995] 5 2 4 5 5 3 5 5 5 2 ...
+##  $ uniID    : chr [1:995] &quot;Core 2021 Common&quot; &quot;Core 2021 Uncommon&quot; &quot;Core 2021 Uncommon&quot; &quot;Core 2021 Common&quot; ...
+##  - attr(*, &quot;groups&quot;)= tibble [995 × 8] (S3: tbl_df/tbl/data.frame)
 ##   ..$ set      : Factor w/ 3 levels &quot;Core 2021&quot;,&quot;Ikoria: Lair of Behemoths&quot;,..: 1 1 1 1 1 1 1 1 1 1 ...
-##   ..$ rep      : int [1:3566] 1 1 1 1 1 1 1 1 1 1 ...
 ##   ..$ rarity   : Factor w/ 4 levels &quot;Common&quot;,&quot;Mythic&quot;,..: 1 1 1 1 1 1 1 1 1 1 ...
-##   ..$ card_type: Factor w/ 10 levels &quot;Artifact&quot;,&quot;Artifact Creature&quot;,..: 1 1 2 2 3 3 3 3 3 3 ...
-##   ..$ card_name: Factor w/ 763 levels &quot;Acquisitions Expert&quot;,..: 578 581 220 598 15 21 43 43 58 66 ...
-##   ..$ finish   : Factor w/ 11 levels &quot;Alternate art&quot;,..: 8 8 8 8 8 8 8 9 8 8 ...
-##   ..$ total    : int [1:3566] 4 4 3 2 5 3 1 2 4 4 ...
-##   ..$ price    : num [1:3566] 0.15 0.15 0.15 0.15 0.15 0.15 0.15 0.25 0.15 0.15 ...
-##   ..$ .rows    : list&lt;int&gt; [1:3566] 
-##   .. ..$ : int 173
-##   .. ..$ : int 175
-##   .. ..$ : int 66
-##   .. ..$ : int 178
-##   .. ..$ : int 3
-##   .. ..$ : int 6
-##   .. ..$ : int 12
-##   .. ..$ : int 13
-##   .. ..$ : int 17
-##   .. ..$ : int 21
-##   .. ..$ : int 25
-##   .. ..$ : int 30
-##   .. ..$ : int 32
-##   .. ..$ : int 33
-##   .. ..$ : int 36
-##   .. ..$ : int 38
-##   .. ..$ : int 41
-##   .. ..$ : int 43
-##   .. ..$ : int 44
-##   .. ..$ : int 51
-##   .. ..$ : int 62
-##   .. ..$ : int 73
-##   .. ..$ : int 74
-##   .. ..$ : int 75
-##   .. ..$ : int 77
-##   .. ..$ : int 78
-##   .. ..$ : int 79
-##   .. ..$ : int 89
-##   .. ..$ : int 93
-##   .. ..$ : int 101
-##   .. ..$ : int 106
-##   .. ..$ : int 112
-##   .. ..$ : int 113
-##   .. ..$ : int 114
-##   .. ..$ : int 117
-##   .. ..$ : int 119
-##   .. ..$ : int 123
-##   .. ..$ : int 125
-##   .. ..$ : int 127
-##   .. ..$ : int 133
-##   .. ..$ : int 134
-##   .. ..$ : int 135
-##   .. ..$ : int 137
-##   .. ..$ : int 142
-##   .. ..$ : int 150
-##   .. ..$ : int 155
-##   .. ..$ : int 177
-##   .. ..$ : int 180
-##   .. ..$ : int 182
-##   .. ..$ : int 183
-##   .. ..$ : int 184
-##   .. ..$ : int 193
-##   .. ..$ : int 194
-##   .. ..$ : int 209
-##   .. ..$ : int 210
-##   .. ..$ : int 216
-##   .. ..$ : int 218
-##   .. ..$ : int 223
-##   .. ..$ : int 224
-##   .. ..$ : int 227
+##   ..$ card_type: Factor w/ 10 levels &quot;Artifact&quot;,&quot;Artifact Creature&quot;,..: 1 1 1 1 1 2 2 2 3 3 ...
+##   ..$ card_name: Factor w/ 763 levels &quot;Acquisitions Expert&quot;,..: 578 578 581 581 581 220 598 598 15 21 ...
+##   ..$ finish   : Factor w/ 11 levels &quot;Alternate art&quot;,..: 5 8 5 5 8 8 5 8 8 8 ...
+##   ..$ total    : int [1:995] 1 5 1 1 5 5 1 5 5 5 ...
+##   ..$ price    : num [1:995] 0.3 0.15 0.25 0.3 0.15 0.15 0.15 0.15 0.15 0.15 ...
+##   ..$ .rows    : list&lt;int&gt; [1:995] 
 ##   .. ..$ : int 232
 ##   .. ..$ : int 233
-##   .. ..$ : int 234
-##   .. ..$ : int 239
-##   .. ..$ : int 71
-##   .. ..$ : int 28
-##   .. ..$ : int 52
-##   .. ..$ : int 72
-##   .. ..$ : int 95
-##   .. ..$ : int 152
-##   .. ..$ : int 169
-##   .. ..$ : int 146
-##   .. ..$ : int 1
-##   .. ..$ : int 24
-##   .. ..$ : int 26
+##   .. ..$ : int 236
+##   .. ..$ : int 237
+##   .. ..$ : int 238
+##   .. ..$ : int 92
+##   .. ..$ : int 243
+##   .. ..$ : int 244
+##   .. ..$ : int 4
+##   .. ..$ : int 7
+##   .. ..$ : int 15
+##   .. ..$ : int 16
+##   .. ..$ : int 21
+##   .. ..$ : int 27
+##   .. ..$ : int 31
+##   .. ..$ : int 38
+##   .. ..$ : int 44
 ##   .. ..$ : int 45
+##   .. ..$ : int 46
+##   .. ..$ : int 50
+##   .. ..$ : int 52
+##   .. ..$ : int 58
 ##   .. ..$ : int 61
+##   .. ..$ : int 62
+##   .. ..$ : int 63
 ##   .. ..$ : int 64
-##   .. ..$ : int 65
-##   .. ..$ : int 67
-##   .. ..$ : int 68
-##   .. ..$ : int 80
-##   .. ..$ : int 82
-##   .. ..$ : int 107
+##   .. ..$ : int 73
+##   .. ..$ : int 87
+##   .. ..$ : int 88
+##   .. ..$ : int 100
+##   .. ..$ : int 104
+##   .. ..$ : int 103
+##   .. ..$ : int 105
+##   .. ..$ : int 106
+##   .. ..$ : int 111
+##   .. ..$ : int 112
+##   .. ..$ : int 113
 ##   .. ..$ : int 115
-##   .. ..$ : int 126
-##   .. ..$ : int 143
-##   .. ..$ : int 145
-##   .. ..$ : int 151
+##   .. ..$ : int 116
+##   .. ..$ : int 128
+##   .. ..$ : int 132
+##   .. ..$ : int 141
+##   .. ..$ : int 146
+##   .. ..$ : int 147
 ##   .. ..$ : int 154
-##   .. ..$ : int 165
+##   .. ..$ : int 155
+##   .. ..$ : int 156
+##   .. ..$ : int 159
+##   .. ..$ : int 163
+##   .. ..$ : int 171
 ##   .. ..$ : int 172
-##   .. ..$ : int 187
+##   .. ..$ : int 178
+##   .. ..$ : int 180
+##   .. ..$ : int 186
 ##   .. ..$ : int 188
 ##   .. ..$ : int 189
-##   .. ..$ : int 204
-##   .. ..$ : int 206
-##   .. ..$ : int 225
-##   .. ..$ : int 18
+##   .. ..$ : int 191
+##   .. ..$ : int 197
+##   .. ..$ : int 205
+##   .. ..$ : int 211
+##   .. ..$ : int 242
+##   .. ..$ : int 246
+##   .. ..$ : int 251
+##   .. ..$ : int 252
+##   .. ..$ : int 254
+##   .. ..$ : int 255
+##   .. ..$ : int 269
+##   .. ..$ : int 270
+##   .. ..$ : int 291
+##   .. ..$ : int 292
+##   .. ..$ : int 299
+##   .. ..$ : int 301
+##   .. ..$ : int 302
+##   .. ..$ : int 309
+##   .. ..$ : int 310
+##   .. ..$ : int 313
+##   .. ..$ : int 319
+##   .. ..$ : int 320
+##   .. ..$ : int 321
+##   .. ..$ : int 326
+##   .. ..$ : int 97
+##   .. ..$ : int 34
+##   .. ..$ : int 36
+##   .. ..$ : int 35
+##   .. ..$ : int 74
+##   .. ..$ : int 98
+##   .. ..$ : int 134
+##   .. ..$ : int 207
+##   .. ..$ : int 228
+##   .. ..$ : int 201
+##   .. ..$ : int 1
+##   .. ..$ : int 30
+##   .. ..$ : int 32
+##   .. ..$ : int 65
+##   .. ..$ : int 85
+##   .. ..$ : int 90
+##   .. ..$ : int 91
+##   .. ..$ : int 93
+##   .. ..$ : int 94
 ##   .. .. [list output truncated]
 ##   .. ..@ ptype: int(0) 
 ##   ..- attr(*, &quot;.drop&quot;)= logi TRUE</code></pre>
@@ -279,21 +281,21 @@ MTG_Vegan &lt;- MTG_Vegan %&gt;%
 MTG_Vegan &lt;- MTG_Vegan %&gt;% group_by(uniID, total) %&gt;% summarise(Total = sum(n))</code></pre>
 <pre><code>## `summarise()` regrouping output by 'uniID' (override with `.groups` argument)</code></pre>
 <pre class="r"><code>MTG_Vegan</code></pre>
-<pre><code>## # A tibble: 35 x 3
+<pre><code>## # A tibble: 51 x 3
 ## # Groups:   uniID [12]
-##    uniID              total Total
-##    &lt;chr&gt;              &lt;int&gt; &lt;int&gt;
-##  1 Core 2021 Common       1    74
-##  2 Core 2021 Common       2   117
-##  3 Core 2021 Common       3   184
-##  4 Core 2021 Common       4   216
-##  5 Core 2021 Common       5    25
-##  6 Core 2021 Mythic       1    22
-##  7 Core 2021 Rare         1   135
-##  8 Core 2021 Rare         2    19
-##  9 Core 2021 Uncommon     1   240
-## 10 Core 2021 Uncommon     2   153
-## # … with 25 more rows</code></pre>
+##    uniID            total Total
+##    &lt;chr&gt;            &lt;int&gt; &lt;int&gt;
+##  1 Core 2021 Common     1    29
+##  2 Core 2021 Common     2     6
+##  3 Core 2021 Common     3     1
+##  4 Core 2021 Common     4     3
+##  5 Core 2021 Common     5   112
+##  6 Core 2021 Mythic     1     7
+##  7 Core 2021 Mythic     2     6
+##  8 Core 2021 Mythic     3     1
+##  9 Core 2021 Rare       1    18
+## 10 Core 2021 Rare       2    15
+## # … with 41 more rows</code></pre>
 <pre class="r"><code>###Spread the Data
 commMTG &lt;- MTG_Vegan %&gt;% spread(total, Total)
 commMTG[is.na(commMTG)] &lt;- 0
@@ -304,21 +306,21 @@ commMTG &lt;- commMTG %&gt;%
   dplyr::select(-uniID)
 
 commMTG</code></pre>
-<pre><code>## # A tibble: 12 x 7
-##      `1`   `2`   `3`   `4`   `5`   `6`   `7`
-##    &lt;int&gt; &lt;int&gt; &lt;int&gt; &lt;int&gt; &lt;int&gt; &lt;int&gt; &lt;int&gt;
-##  1    74   117   184   216    25     0     0
-##  2    22     0     0     0     0     0     0
-##  3   135    19     0     0     0     0     0
-##  4   240   153     2     0     0     0     0
-##  5    86   108   186   172    51     5     3
-##  6    21     1     0     0     0     0     0
-##  7   135    17     0     0     0     0     0
-##  8   252   145     4     0     0     0     0
-##  9    70    49   258   196     9     0     0
-## 10    26     0     0     0     0     0     0
-## 11   167     0     0     0     0     0     0
-## 12   285   131     2     0     0     0     0</code></pre>
+<pre><code>## # A tibble: 12 x 5
+##      `1`   `2`   `3`   `4`   `5`
+##    &lt;int&gt; &lt;int&gt; &lt;int&gt; &lt;int&gt; &lt;int&gt;
+##  1    29     6     1     3   112
+##  2     7     6     1     0     0
+##  3    18    15    22    10     0
+##  4    13     3     4    21    56
+##  5    32     5     3     5   108
+##  6     4     6     2     0     0
+##  7    21    19    16    10     1
+##  8    26     4     6    26    49
+##  9    16     8     0     0   110
+## 10    14     3     2     0     0
+## 11    24    20    14    14     1
+## 12     9     8     2    13    67</code></pre>
 <pre class="r"><code>##Set up a mini-dataset to join the calculations to after. This dataset broken up by set and rarity.
 setMTG &lt;- MTG %&gt;%
   group_by(set, rarity) %&gt;%
@@ -360,7 +362,7 @@ setMTG$Simpson &lt;- simpsonfinal
 setMTG$Evenness &lt;- Evenness
 
 ##Merge Data back to the main dataset
-finalMTG &lt;- merge(MTG, setMTG)</code></pre>
+finalMTG &lt;- merge(MTG_norep, setMTG)</code></pre>
 </div>
 
 
