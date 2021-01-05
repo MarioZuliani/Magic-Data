@@ -718,21 +718,21 @@ mz,Zendikar Rising,2,18,Brushfire Elemental,Uncommon,Creature,Elemental,1,1,2,"R
 mz,Zendikar Rising,3,25,Brushfire Elemental,Uncommon,Creature,Elemental,1,1,2,"Red, Green",2,Showcase,1,Haste,1,0.35
 mz,Zendikar Rising,4,22,Brushfire Elemental,Uncommon,Creature,Elemental,1,1,2,"Red, Green",2,Regular,1,Haste,1,0.25
 mz,Zendikar Rising,5,1,Brushfire Elemental,Uncommon,Creature,Elemental,1,1,2,"Red, Green",2,Regular,1,Haste,1,0.25
-mz,Zendikar Rising,1,7,Bubble Snare,Common,Enchantment - Aura,,,,1,Blue,1,Regular,1,Kicker,1,0.15
-mz,Zendikar Rising,1,30,Bubble Snare,Common,Enchantment - Aura,,,,1,Blue,1,Regular,1,Kicker,1,0.15
-mz,Zendikar Rising,1,33,Bubble Snare,Common,Enchantment - Aura,,,,1,Blue,1,Regular,1,Kicker,1,0.15
-mz,Zendikar Rising,2,4,Bubble Snare,Common,Enchantment - Aura,,,,1,Blue,1,Regular,1,Kicker,1,0.15
-mz,Zendikar Rising,2,6,Bubble Snare,Common,Enchantment - Aura,,,,1,Blue,1,Regular,1,Kicker,1,0.15
-mz,Zendikar Rising,2,30,Bubble Snare,Common,Enchantment - Aura,,,,1,Blue,1,Regular,1,Kicker,1,0.15
-mz,Zendikar Rising,3,7,Bubble Snare,Common,Enchantment - Aura,,,,1,Blue,1,Regular,1,Kicker,1,0.15
-mz,Zendikar Rising,3,28,Bubble Snare,Common,Enchantment - Aura,,,,1,Blue,1,Regular,1,Kicker,1,0.15
-mz,Zendikar Rising,3,34,Bubble Snare,Common,Enchantment - Aura,,,,1,Blue,1,Regular,1,Kicker,1,0.15
-mz,Zendikar Rising,4,11,Bubble Snare,Common,Enchantment - Aura,,,,1,Blue,1,Regular,1,Kicker,1,0.15
-mz,Zendikar Rising,4,21,Bubble Snare,Common,Enchantment - Aura,,,,1,Blue,1,Regular,1,Kicker,1,0.15
-mz,Zendikar Rising,4,23,Bubble Snare,Common,Enchantment - Aura,,,,1,Blue,1,Regular,1,Kicker,1,0.15
-mz,Zendikar Rising,5,2,Bubble Snare,Common,Enchantment - Aura,,,,1,Blue,1,Regular,1,Kicker,1,0.15
-mz,Zendikar Rising,5,6,Bubble Snare,Common,Enchantment - Aura,,,,1,Blue,1,Regular,1,Kicker,1,0.15
-mz,Zendikar Rising,5,30,Bubble Snare,Common,Enchantment - Aura,,,,1,Blue,1,Regular,1,Kicker,1,0.15
+mz,Zendikar Rising,1,7,Bubble Snare,Common,Enchantment,,,,1,Blue,1,Regular,1,Kicker,1,0.15
+mz,Zendikar Rising,1,30,Bubble Snare,Common,Enchantment,,,,1,Blue,1,Regular,1,Kicker,1,0.15
+mz,Zendikar Rising,1,33,Bubble Snare,Common,Enchantment,,,,1,Blue,1,Regular,1,Kicker,1,0.15
+mz,Zendikar Rising,2,4,Bubble Snare,Common,Enchantment,,,,1,Blue,1,Regular,1,Kicker,1,0.15
+mz,Zendikar Rising,2,6,Bubble Snare,Common,Enchantment,,,,1,Blue,1,Regular,1,Kicker,1,0.15
+mz,Zendikar Rising,2,30,Bubble Snare,Common,Enchantment,,,,1,Blue,1,Regular,1,Kicker,1,0.15
+mz,Zendikar Rising,3,7,Bubble Snare,Common,Enchantment,,,,1,Blue,1,Regular,1,Kicker,1,0.15
+mz,Zendikar Rising,3,28,Bubble Snare,Common,Enchantment,,,,1,Blue,1,Regular,1,Kicker,1,0.15
+mz,Zendikar Rising,3,34,Bubble Snare,Common,Enchantment,,,,1,Blue,1,Regular,1,Kicker,1,0.15
+mz,Zendikar Rising,4,11,Bubble Snare,Common,Enchantment,,,,1,Blue,1,Regular,1,Kicker,1,0.15
+mz,Zendikar Rising,4,21,Bubble Snare,Common,Enchantment,,,,1,Blue,1,Regular,1,Kicker,1,0.15
+mz,Zendikar Rising,4,23,Bubble Snare,Common,Enchantment,,,,1,Blue,1,Regular,1,Kicker,1,0.15
+mz,Zendikar Rising,5,2,Bubble Snare,Common,Enchantment,,,,1,Blue,1,Regular,1,Kicker,1,0.15
+mz,Zendikar Rising,5,6,Bubble Snare,Common,Enchantment,,,,1,Blue,1,Regular,1,Kicker,1,0.15
+mz,Zendikar Rising,5,30,Bubble Snare,Common,Enchantment,,,,1,Blue,1,Regular,1,Kicker,1,0.15
 mz,Core 2021,1,12,Burlfist Oak,Uncommon,Creature,Treefolk Druid,2,3,1,Green,4,Regular,0,,1,0.25
 mz,Core 2021,3,5,Burlfist Oak,Uncommon,Creature,Treefolk Druid,2,3,1,Green,4,Regular,0,,1,0.25
 mz,Core 2021,3,35,Burlfist Oak,Uncommon,Creature,Treefolk Druid,2,3,1,Green,4,Regular,0,,1,0.25
@@ -842,42 +842,42 @@ mz,Zendikar Rising,2,30,Canyon Jerboa,Uncommon,Creature,Mouse,1,2,1,White,3,Show
 mz,Zendikar Rising,3,35,Canyon Jerboa,Uncommon,Creature,Mouse,1,2,1,White,3,Showcase,1,Landfall,1,0.35
 mz,Zendikar Rising,4,35,Canyon Jerboa,Uncommon,Creature,Mouse,1,2,1,White,3,Showcase,1,Landfall,1,0.35
 mz,Zendikar Rising,5,17,Canyon Jerboa,Uncommon,Creature,Mouse,1,2,1,White,3,Showcase,1,Landfall,1,0.35
-mz,Ikoria: Lair of Behemoths,1,7,Capture Sphere,Common,Enchantment - Aura,,,,1,Blue,4,Regular,1,Flash,1,0.15
-mz,Ikoria: Lair of Behemoths,1,15,Capture Sphere,Common,Enchantment - Aura,,,,1,Blue,4,Regular,1,Flash,1,0.15
-mz,Ikoria: Lair of Behemoths,1,26,Capture Sphere,Common,Enchantment - Aura,,,,1,Blue,4,Regular,1,Flash,1,0.15
-mz,Ikoria: Lair of Behemoths,1,29,Capture Sphere,Common,Enchantment - Aura,,,,1,Blue,4,Regular,1,Flash,1,0.15
-mz,Ikoria: Lair of Behemoths,2,10,Capture Sphere,Common,Enchantment - Aura,,,,1,Blue,4,Regular,1,Flash,1,0.15
-mz,Ikoria: Lair of Behemoths,2,18,Capture Sphere,Common,Enchantment - Aura,,,,1,Blue,4,Regular,1,Flash,1,0.15
-mz,Ikoria: Lair of Behemoths,2,29,Capture Sphere,Common,Enchantment - Aura,,,,1,Blue,4,Regular,1,Flash,1,0.15
-mz,Ikoria: Lair of Behemoths,3,3,Capture Sphere,Common,Enchantment - Aura,,,,1,Blue,4,Regular,1,Flash,1,0.15
-mz,Ikoria: Lair of Behemoths,3,14,Capture Sphere,Common,Enchantment - Aura,,,,1,Blue,4,Regular,1,Flash,1,0.15
-mz,Ikoria: Lair of Behemoths,3,20,Capture Sphere,Common,Enchantment - Aura,,,,1,Blue,4,Regular,1,Flash,1,0.15
-mz,Ikoria: Lair of Behemoths,3,25,Capture Sphere,Common,Enchantment - Aura,,,,1,Blue,4,Regular,1,Flash,1,0.15
-mz,Ikoria: Lair of Behemoths,4,8,Capture Sphere,Common,Enchantment - Aura,,,,1,Blue,4,Regular,1,Flash,1,0.15
-mz,Ikoria: Lair of Behemoths,4,18,Capture Sphere,Common,Enchantment - Aura,,,,1,Blue,4,Regular,1,Flash,1,0.15
-mz,Ikoria: Lair of Behemoths,4,22,Capture Sphere,Common,Enchantment - Aura,,,,1,Blue,4,Regular,1,Flash,1,0.15
-mz,Ikoria: Lair of Behemoths,4,29,Capture Sphere,Common,Enchantment - Aura,,,,1,Blue,4,Regular,1,Flash,1,0.15
-mz,Core 2021,1,3,Capture Sphere,Common,Enchantment - Aura,,,,1,Blue,4,Regular,1,Flash,1,0.15
-mz,Core 2021,1,4,Capture Sphere,Common,Enchantment - Aura,,,,1,Blue,4,Regular,1,Flash,1,0.15
-mz,Core 2021,1,8,Capture Sphere,Common,Enchantment - Aura,,,,1,Blue,4,Regular,1,Flash,1,0.15
-mz,Core 2021,1,26,Capture Sphere,Common,Enchantment - Aura,,,,1,Blue,4,Regular,1,Flash,1,0.15
-mz,Core 2021,2,8,Capture Sphere,Common,Enchantment - Aura,,,,1,Blue,4,Regular,1,Flash,1,0.15
-mz,Core 2021,2,11,Capture Sphere,Common,Enchantment - Aura,,,,1,Blue,4,Regular,1,Flash,1,0.15
-mz,Core 2021,2,16,Capture Sphere,Common,Enchantment - Aura,,,,1,Blue,4,Regular,1,Flash,1,0.15
-mz,Core 2021,2,20,Capture Sphere,Common,Enchantment - Aura,,,,1,Blue,4,Foil,1,Flash,1,0.25
-mz,Core 2021,3,16,Capture Sphere,Common,Enchantment - Aura,,,,1,Blue,4,Regular,1,Flash,1,0.15
-mz,Core 2021,3,18,Capture Sphere,Common,Enchantment - Aura,,,,1,Blue,4,Regular,1,Flash,1,0.15
-mz,Core 2021,3,26,Capture Sphere,Common,Enchantment - Aura,,,,1,Blue,4,Regular,1,Flash,1,0.15
-mz,Core 2021,4,20,Capture Sphere,Common,Enchantment - Aura,,,,1,Blue,4,Regular,1,Flash,1,0.15
-mz,Core 2021,4,21,Capture Sphere,Common,Enchantment - Aura,,,,1,Blue,4,Regular,1,Flash,1,0.15
-mz,Core 2021,5,20,Capture Sphere,Common,Enchantment - Aura,,,,1,Blue,4,Regular,1,Flash,1,0.15
-mz,Core 2021,5,24,Capture Sphere,Common,Enchantment - Aura,,,,1,Blue,4,Regular,1,Flash,1,0.25
-mz,Core 2021,5,35,Capture Sphere,Common,Enchantment - Aura,,,,1,Blue,4,Regular,1,Flash,1,0.15
-mz,Ikoria: Lair of Behemoths,5,7,Capture Sphere,Common,Enchantment - Aura,,,,1,Blue,4,Regular,1,Flash,1,0.15
-mz,Ikoria: Lair of Behemoths,5,12,Capture Sphere,Common,Enchantment - Aura,,,,1,Blue,4,Regular,1,Flash,1,0.15
-mz,Ikoria: Lair of Behemoths,5,13,Capture Sphere,Common,Enchantment - Aura,,,,1,Blue,4,Regular,1,Flash,1,0.15
-mz,Ikoria: Lair of Behemoths,5,20,Capture Sphere,Common,Enchantment - Aura,,,,1,Blue,4,Regular,1,Flash,1,0.15
-mz,Ikoria: Lair of Behemoths,5,26,Capture Sphere,Common,Enchantment - Aura,,,,1,Blue,4,Regular,1,Flash,1,0.15
+mz,Ikoria: Lair of Behemoths,1,7,Capture Sphere,Common,Enchantment,,,,1,Blue,4,Regular,1,Flash,1,0.15
+mz,Ikoria: Lair of Behemoths,1,15,Capture Sphere,Common,Enchantment,,,,1,Blue,4,Regular,1,Flash,1,0.15
+mz,Ikoria: Lair of Behemoths,1,26,Capture Sphere,Common,Enchantment,,,,1,Blue,4,Regular,1,Flash,1,0.15
+mz,Ikoria: Lair of Behemoths,1,29,Capture Sphere,Common,Enchantment,,,,1,Blue,4,Regular,1,Flash,1,0.15
+mz,Ikoria: Lair of Behemoths,2,10,Capture Sphere,Common,Enchantment,,,,1,Blue,4,Regular,1,Flash,1,0.15
+mz,Ikoria: Lair of Behemoths,2,18,Capture Sphere,Common,Enchantment,,,,1,Blue,4,Regular,1,Flash,1,0.15
+mz,Ikoria: Lair of Behemoths,2,29,Capture Sphere,Common,Enchantment,,,,1,Blue,4,Regular,1,Flash,1,0.15
+mz,Ikoria: Lair of Behemoths,3,3,Capture Sphere,Common,Enchantment,,,,1,Blue,4,Regular,1,Flash,1,0.15
+mz,Ikoria: Lair of Behemoths,3,14,Capture Sphere,Common,Enchantment,,,,1,Blue,4,Regular,1,Flash,1,0.15
+mz,Ikoria: Lair of Behemoths,3,20,Capture Sphere,Common,Enchantment,,,,1,Blue,4,Regular,1,Flash,1,0.15
+mz,Ikoria: Lair of Behemoths,3,25,Capture Sphere,Common,Enchantment,,,,1,Blue,4,Regular,1,Flash,1,0.15
+mz,Ikoria: Lair of Behemoths,4,8,Capture Sphere,Common,Enchantment,,,,1,Blue,4,Regular,1,Flash,1,0.15
+mz,Ikoria: Lair of Behemoths,4,18,Capture Sphere,Common,Enchantment,,,,1,Blue,4,Regular,1,Flash,1,0.15
+mz,Ikoria: Lair of Behemoths,4,22,Capture Sphere,Common,Enchantment,,,,1,Blue,4,Regular,1,Flash,1,0.15
+mz,Ikoria: Lair of Behemoths,4,29,Capture Sphere,Common,Enchantment,,,,1,Blue,4,Regular,1,Flash,1,0.15
+mz,Core 2021,1,3,Capture Sphere,Common,Enchantment,,,,1,Blue,4,Regular,1,Flash,1,0.15
+mz,Core 2021,1,4,Capture Sphere,Common,Enchantment,,,,1,Blue,4,Regular,1,Flash,1,0.15
+mz,Core 2021,1,8,Capture Sphere,Common,Enchantment,,,,1,Blue,4,Regular,1,Flash,1,0.15
+mz,Core 2021,1,26,Capture Sphere,Common,Enchantment,,,,1,Blue,4,Regular,1,Flash,1,0.15
+mz,Core 2021,2,8,Capture Sphere,Common,Enchantment,,,,1,Blue,4,Regular,1,Flash,1,0.15
+mz,Core 2021,2,11,Capture Sphere,Common,Enchantment,,,,1,Blue,4,Regular,1,Flash,1,0.15
+mz,Core 2021,2,16,Capture Sphere,Common,Enchantment,,,,1,Blue,4,Regular,1,Flash,1,0.15
+mz,Core 2021,2,20,Capture Sphere,Common,Enchantment,,,,1,Blue,4,Foil,1,Flash,1,0.25
+mz,Core 2021,3,16,Capture Sphere,Common,Enchantment,,,,1,Blue,4,Regular,1,Flash,1,0.15
+mz,Core 2021,3,18,Capture Sphere,Common,Enchantment,,,,1,Blue,4,Regular,1,Flash,1,0.15
+mz,Core 2021,3,26,Capture Sphere,Common,Enchantment,,,,1,Blue,4,Regular,1,Flash,1,0.15
+mz,Core 2021,4,20,Capture Sphere,Common,Enchantment,,,,1,Blue,4,Regular,1,Flash,1,0.15
+mz,Core 2021,4,21,Capture Sphere,Common,Enchantment,,,,1,Blue,4,Regular,1,Flash,1,0.15
+mz,Core 2021,5,20,Capture Sphere,Common,Enchantment,,,,1,Blue,4,Regular,1,Flash,1,0.15
+mz,Core 2021,5,24,Capture Sphere,Common,Enchantment,,,,1,Blue,4,Regular,1,Flash,1,0.25
+mz,Core 2021,5,35,Capture Sphere,Common,Enchantment,,,,1,Blue,4,Regular,1,Flash,1,0.15
+mz,Ikoria: Lair of Behemoths,5,7,Capture Sphere,Common,Enchantment,,,,1,Blue,4,Regular,1,Flash,1,0.15
+mz,Ikoria: Lair of Behemoths,5,12,Capture Sphere,Common,Enchantment,,,,1,Blue,4,Regular,1,Flash,1,0.15
+mz,Ikoria: Lair of Behemoths,5,13,Capture Sphere,Common,Enchantment,,,,1,Blue,4,Regular,1,Flash,1,0.15
+mz,Ikoria: Lair of Behemoths,5,20,Capture Sphere,Common,Enchantment,,,,1,Blue,4,Regular,1,Flash,1,0.15
+mz,Ikoria: Lair of Behemoths,5,26,Capture Sphere,Common,Enchantment,,,,1,Blue,4,Regular,1,Flash,1,0.15
 mz,Core 2021,1,35,Carrion Grub,Uncommon,Creature,Insect,0,5,1,Black,4,Regular,0,,1,0.25
 mz,Core 2021,2,31,Carrion Grub,Uncommon,Creature,Insect,0,5,1,Black,4,Regular,0,,1,0.25
 mz,Core 2021,3,20,Carrion Grub,Uncommon,Creature,Insect,0,5,1,Black,4,Regular,0,,1,0.25
@@ -1180,9 +1180,9 @@ mz,Core 2021,5,6,Colossal Dreadmaw,Common,Creature,Dinosaur,6,6,1,Green,6,Regula
 mz,Core 2021,5,19,Colossal Dreadmaw,Common,Creature,Dinosaur,6,6,1,Green,6,Regular,1,Trample,1,0.15
 mz,Core 2021,5,29,Colossal Dreadmaw,Common,Creature,Dinosaur,6,6,1,Green,6,Regular,1,Trample,1,0.15
 mz,Core 2021,5,34,Colossal Dreadmaw,Common,Creature,Dinosaur,6,6,1,Green,6,Regular,1,Trample,1,0.15
-mz,Ikoria: Lair of Behemoths,2,23,Colossification,Rare,Enchantment - Aura,,,,1,Green,7,Regular,0,,1,1
-mz,Ikoria: Lair of Behemoths,3,2,Colossification,Rare,Enchantment - Aura,,,,1,Green,7,Regular,0,,1,1
-mz,Ikoria: Lair of Behemoths,4,26,Colossification,Rare,Enchantment - Aura,,,,1,Green,7,Regular,0,,1,1
+mz,Ikoria: Lair of Behemoths,2,23,Colossification,Rare,Enchantment,,,,1,Green,7,Regular,0,,1,1
+mz,Ikoria: Lair of Behemoths,3,2,Colossification,Rare,Enchantment,,,,1,Green,7,Regular,0,,1,1
+mz,Ikoria: Lair of Behemoths,4,26,Colossification,Rare,Enchantment,,,,1,Green,7,Regular,0,,1,1
 mz,Zendikar Rising,1,36,Concerted Defense,Uncommon,Instant,,,,1,Blue,1,Regular,0,,1,0.25
 mz,Zendikar Rising,2,15,Concerted Defense,Uncommon,Instant,,,,1,Blue,1,Regular,0,,1,0.25
 mz,Zendikar Rising,3,3,Concerted Defense,Uncommon,Instant,,,,1,Blue,1,Regular,0,,1,0.25
@@ -1470,25 +1470,25 @@ mz,Ikoria: Lair of Behemoths,4,19,Daysquad Marshal,Common,Creature,Human Soldier
 mz,Ikoria: Lair of Behemoths,5,1,Daysquad Marshal,Common,Creature,Human Soldier,3,3,1,White,4,Regular,0,,1,0.15
 mz,Ikoria: Lair of Behemoths,5,20,Daysquad Marshal,Common,Creature,Human Soldier,3,3,1,White,4,Regular,0,,1,0.15
 mz,Ikoria: Lair of Behemoths,5,28,Daysquad Marshal,Common,Creature,Human Soldier,3,3,1,White,4,Regular,0,,1,0.15
-mz,Ikoria: Lair of Behemoths,1,21,Dead Weight,Common,Enchantment - Aura,,,,1,Black,1,Regular,0,,1,0.15
-mz,Ikoria: Lair of Behemoths,1,22,Dead Weight,Common,Enchantment - Aura,,,,1,Black,1,Regular,0,,1,0.15
-mz,Ikoria: Lair of Behemoths,1,23,Dead Weight,Common,Enchantment - Aura,,,,1,Black,1,Regular,0,,1,0.15
-mz,Ikoria: Lair of Behemoths,1,31,Dead Weight,Common,Enchantment - Aura,,,,1,Black,1,Regular,0,,1,0.15
-mz,Ikoria: Lair of Behemoths,2,1,Dead Weight,Common,Enchantment - Aura,,,,1,Black,1,Regular,0,,1,0.15
-mz,Ikoria: Lair of Behemoths,2,26,Dead Weight,Common,Enchantment - Aura,,,,1,Black,1,Regular,0,,1,0.15
-mz,Ikoria: Lair of Behemoths,2,34,Dead Weight,Common,Enchantment - Aura,,,,1,Black,1,Regular,0,,1,0.15
-mz,Ikoria: Lair of Behemoths,3,4,Dead Weight,Common,Enchantment - Aura,,,,1,Black,1,Regular,0,,1,0.15
-mz,Ikoria: Lair of Behemoths,3,11,Dead Weight,Common,Enchantment - Aura,,,,1,Black,1,Regular,0,,1,0.15
-mz,Ikoria: Lair of Behemoths,3,12,Dead Weight,Common,Enchantment - Aura,,,,1,Black,1,Foil,0,,1,0.5
-mz,Ikoria: Lair of Behemoths,3,20,Dead Weight,Common,Enchantment - Aura,,,,1,Black,1,Regular,0,,1,0.15
-mz,Ikoria: Lair of Behemoths,3,33,Dead Weight,Common,Enchantment - Aura,,,,1,Black,1,Regular,0,,1,0.15
-mz,Ikoria: Lair of Behemoths,4,1,Dead Weight,Common,Enchantment - Aura,,,,1,Black,1,Regular,0,,1,0.15
-mz,Ikoria: Lair of Behemoths,4,6,Dead Weight,Common,Enchantment - Aura,,,,1,Black,1,Regular,0,,1,0.15
-mz,Ikoria: Lair of Behemoths,4,34,Dead Weight,Common,Enchantment - Aura,,,,1,Black,1,Regular,0,,1,0.15
-mz,Ikoria: Lair of Behemoths,5,5,Dead Weight,Common,Enchantment - Aura,,,,1,Black,1,Regular,0,,1,0.15
-mz,Ikoria: Lair of Behemoths,5,9,Dead Weight,Common,Enchantment - Aura,,,,1,Black,1,Regular,0,,1,0.15
-mz,Ikoria: Lair of Behemoths,5,16,Dead Weight,Common,Enchantment - Aura,,,,1,Black,1,Regular,0,,1,0.15
-mz,Ikoria: Lair of Behemoths,5,34,Dead Weight,Common,Enchantment - Aura,,,,1,Black,1,Regular,0,,1,0.15
+mz,Ikoria: Lair of Behemoths,1,21,Dead Weight,Common,Enchantment,,,,1,Black,1,Regular,0,,1,0.15
+mz,Ikoria: Lair of Behemoths,1,22,Dead Weight,Common,Enchantment,,,,1,Black,1,Regular,0,,1,0.15
+mz,Ikoria: Lair of Behemoths,1,23,Dead Weight,Common,Enchantment,,,,1,Black,1,Regular,0,,1,0.15
+mz,Ikoria: Lair of Behemoths,1,31,Dead Weight,Common,Enchantment,,,,1,Black,1,Regular,0,,1,0.15
+mz,Ikoria: Lair of Behemoths,2,1,Dead Weight,Common,Enchantment,,,,1,Black,1,Regular,0,,1,0.15
+mz,Ikoria: Lair of Behemoths,2,26,Dead Weight,Common,Enchantment,,,,1,Black,1,Regular,0,,1,0.15
+mz,Ikoria: Lair of Behemoths,2,34,Dead Weight,Common,Enchantment,,,,1,Black,1,Regular,0,,1,0.15
+mz,Ikoria: Lair of Behemoths,3,4,Dead Weight,Common,Enchantment,,,,1,Black,1,Regular,0,,1,0.15
+mz,Ikoria: Lair of Behemoths,3,11,Dead Weight,Common,Enchantment,,,,1,Black,1,Regular,0,,1,0.15
+mz,Ikoria: Lair of Behemoths,3,12,Dead Weight,Common,Enchantment,,,,1,Black,1,Foil,0,,1,0.5
+mz,Ikoria: Lair of Behemoths,3,20,Dead Weight,Common,Enchantment,,,,1,Black,1,Regular,0,,1,0.15
+mz,Ikoria: Lair of Behemoths,3,33,Dead Weight,Common,Enchantment,,,,1,Black,1,Regular,0,,1,0.15
+mz,Ikoria: Lair of Behemoths,4,1,Dead Weight,Common,Enchantment,,,,1,Black,1,Regular,0,,1,0.15
+mz,Ikoria: Lair of Behemoths,4,6,Dead Weight,Common,Enchantment,,,,1,Black,1,Regular,0,,1,0.15
+mz,Ikoria: Lair of Behemoths,4,34,Dead Weight,Common,Enchantment,,,,1,Black,1,Regular,0,,1,0.15
+mz,Ikoria: Lair of Behemoths,5,5,Dead Weight,Common,Enchantment,,,,1,Black,1,Regular,0,,1,0.15
+mz,Ikoria: Lair of Behemoths,5,9,Dead Weight,Common,Enchantment,,,,1,Black,1,Regular,0,,1,0.15
+mz,Ikoria: Lair of Behemoths,5,16,Dead Weight,Common,Enchantment,,,,1,Black,1,Regular,0,,1,0.15
+mz,Ikoria: Lair of Behemoths,5,34,Dead Weight,Common,Enchantment,,,,1,Black,1,Regular,0,,1,0.15
 mz,Zendikar Rising,1,7,Deadly Alliance,Common,Instant,,,,1,Black,5,Regular,0,,1,0.15
 mz,Zendikar Rising,1,18,Deadly Alliance,Common,Instant,,,,1,Black,5,Regular,0,,1,0.15
 mz,Zendikar Rising,1,34,Deadly Alliance,Common,Instant,,,,1,Black,5,Regular,0,,1,0.15
@@ -1568,8 +1568,8 @@ mz,Zendikar Rising,2,27,Demon's Disciple,Uncommon,Creature,Human Cleric,3,1,1,Bl
 mz,Zendikar Rising,3,25,Demon's Disciple,Uncommon,Creature,Human Cleric,3,1,1,Black,3,Regular,0,,1,0.25
 mz,Zendikar Rising,4,31,Demon's Disciple,Uncommon,Creature,Human Cleric,3,1,1,Black,3,Regular,0,,1,0.25
 mz,Zendikar Rising,5,17,Demon's Disciple,Uncommon,Creature,Human Cleric,3,1,1,Black,3,Regular,0,,1,0.25
-mz,Core 2021,2,9,Demonic Embrace,Rare,Enchantment - Aura,,,,1,Black,3,Regular,0,,1,0.75
-mz,Core 2021,4,8,Demonic Embrace,Rare,Enchantment - Aura,,,,1,Black,3,Regular,0,,1,0.75
+mz,Core 2021,2,9,Demonic Embrace,Rare,Enchantment,,,,1,Black,3,Regular,0,,1,0.75
+mz,Core 2021,4,8,Demonic Embrace,Rare,Enchantment,,,,1,Black,3,Regular,0,,1,0.75
 mz,Core 2021,1,9,Destructive Tampering,Common,Sorcery,,,,1,Red,3,Regular,0,,1,0.15
 mz,Core 2021,1,18,Destructive Tampering,Common,Sorcery,,,,1,Red,3,Regular,0,,1,0.15
 mz,Core 2021,1,24,Destructive Tampering,Common,Sorcery,,,,1,Red,3,Regular,0,,1,0.15
@@ -1763,16 +1763,16 @@ mz,Core 2021,4,27,Drowsing Tyrannodon,Common,Creature,Dinosaur,3,3,1,Green,2,Reg
 mz,Core 2021,4,32,Drowsing Tyrannodon,Common,Creature,Dinosaur,3,3,1,Green,2,Regular,1,Defender,1,0.15
 mz,Core 2021,5,22,Drowsing Tyrannodon,Common,Creature,Dinosaur,3,3,1,Green,2,Regular,1,Defender,1,0.15
 mz,Core 2021,5,26,Drowsing Tyrannodon,Common,Creature,Dinosaur,3,3,1,Green,2,Regular,1,Defender,1,0.15
-mz,Core 2021,1,16,Dub,Common,Enchantment - Aura,,,,1,White,3,Regular,0,,1,0.25
-mz,Core 2021,1,31,Dub,Common,Enchantment - Aura,,,,1,White,3,Regular,0,,1,0.25
-mz,Core 2021,2,10,Dub,Common,Enchantment - Aura,,,,1,White,3,Regular,0,,1,0.25
-mz,Core 2021,2,31,Dub,Common,Enchantment - Aura,,,,1,White,3,Regular,0,,1,0.25
-mz,Core 2021,3,19,Dub,Common,Enchantment - Aura,,,,1,White,3,Regular,0,,1,0.25
-mz,Core 2021,3,20,Dub,Common,Enchantment - Aura,,,,1,White,3,Regular,0,,1,0.25
-mz,Core 2021,4,9,Dub,Common,Enchantment - Aura,,,,1,White,3,Regular,0,,1,0.25
-mz,Core 2021,4,19,Dub,Common,Enchantment - Aura,,,,1,White,3,Regular,0,,1,0.25
-mz,Core 2021,4,31,Dub,Common,Enchantment - Aura,,,,1,White,3,Regular,0,,1,0.25
-mz,Core 2021,5,25,Dub,Common,Enchantment - Aura,,,,1,White,3,Regular,0,,1,0.25
+mz,Core 2021,1,16,Dub,Common,Enchantment,,,,1,White,3,Regular,0,,1,0.25
+mz,Core 2021,1,31,Dub,Common,Enchantment,,,,1,White,3,Regular,0,,1,0.25
+mz,Core 2021,2,10,Dub,Common,Enchantment,,,,1,White,3,Regular,0,,1,0.25
+mz,Core 2021,2,31,Dub,Common,Enchantment,,,,1,White,3,Regular,0,,1,0.25
+mz,Core 2021,3,19,Dub,Common,Enchantment,,,,1,White,3,Regular,0,,1,0.25
+mz,Core 2021,3,20,Dub,Common,Enchantment,,,,1,White,3,Regular,0,,1,0.25
+mz,Core 2021,4,9,Dub,Common,Enchantment,,,,1,White,3,Regular,0,,1,0.25
+mz,Core 2021,4,19,Dub,Common,Enchantment,,,,1,White,3,Regular,0,,1,0.25
+mz,Core 2021,4,31,Dub,Common,Enchantment,,,,1,White,3,Regular,0,,1,0.25
+mz,Core 2021,5,25,Dub,Common,Enchantment,,,,1,White,3,Regular,0,,1,0.25
 mz,Ikoria: Lair of Behemoths,1,3,Durable Coilbug,Common,Creature,Insect,2,2,1,Black,2,Regular,0,,1,0.15
 mz,Ikoria: Lair of Behemoths,1,15,Durable Coilbug,Common,Creature,Insect,2,2,1,Black,2,Regular,0,,1,0.15
 mz,Ikoria: Lair of Behemoths,1,16,Durable Coilbug,Common,Creature,Insect,2,2,1,Black,2,Regular,0,,1,0.15
@@ -1836,14 +1836,14 @@ mz,Zendikar Rising,4,11,Emeria Captain,Uncommon,Creature,Angel Warrior,1,1,1,Whi
 mz,Zendikar Rising,4,33,Emeria Captain,Uncommon,Creature,Angel Warrior,1,1,1,White,4,Regular,2,"Flying, Vigilance",1,0.25
 mz,Zendikar Rising,5,28,Emeria Captain,Uncommon,Creature,Angel Warrior,1,1,1,White,4,Regular,2,"Flying, Vigilance",1,0.25
 mz,Zendikar Rising,1,29,"Emeria's Call // Emeria, Shattered Skyclave",Mythic,Sorcery,,,,1,White,7,Regular,0,,1,8
-mz,Core 2021,1,19,Enthralling Hold,Uncommon,Enchantment - Aura,,,,1,Blue,5,Regular,0,,1,0.25
-mz,Core 2021,2,22,Enthralling Hold,Uncommon,Enchantment - Aura,,,,1,Blue,5,Regular,0,,1,0.25
-mz,Core 2021,2,23,Enthralling Hold,Uncommon,Enchantment - Aura,,,,1,Blue,5,Regular,0,,1,0.25
-mz,Core 2021,3,18,Enthralling Hold,Uncommon,Enchantment - Aura,,,,1,Blue,5,Regular,0,,1,0.25
-mz,Core 2021,4,14,Enthralling Hold,Uncommon,Enchantment - Aura,,,,1,Blue,5,Regular,0,,1,0.25
-mz,Core 2021,4,29,Enthralling Hold,Uncommon,Enchantment - Aura,,,,1,Blue,5,Regular,0,,1,0.25
-mz,Core 2021,5,13,Enthralling Hold,Uncommon,Enchantment - Aura,,,,1,Blue,5,Regular,0,,1,0.25
-mz,Core 2021,5,35,Enthralling Hold,Uncommon,Enchantment - Aura,,,,1,Blue,5,Regular,0,,1,0.25
+mz,Core 2021,1,19,Enthralling Hold,Uncommon,Enchantment,,,,1,Blue,5,Regular,0,,1,0.25
+mz,Core 2021,2,22,Enthralling Hold,Uncommon,Enchantment,,,,1,Blue,5,Regular,0,,1,0.25
+mz,Core 2021,2,23,Enthralling Hold,Uncommon,Enchantment,,,,1,Blue,5,Regular,0,,1,0.25
+mz,Core 2021,3,18,Enthralling Hold,Uncommon,Enchantment,,,,1,Blue,5,Regular,0,,1,0.25
+mz,Core 2021,4,14,Enthralling Hold,Uncommon,Enchantment,,,,1,Blue,5,Regular,0,,1,0.25
+mz,Core 2021,4,29,Enthralling Hold,Uncommon,Enchantment,,,,1,Blue,5,Regular,0,,1,0.25
+mz,Core 2021,5,13,Enthralling Hold,Uncommon,Enchantment,,,,1,Blue,5,Regular,0,,1,0.25
+mz,Core 2021,5,35,Enthralling Hold,Uncommon,Enchantment,,,,1,Blue,5,Regular,0,,1,0.25
 mz,Core 2021,1,4,Epitaph Golem,Uncommon,Creature,Golem,3,5,0,Colorless,5,Regular,0,,1,0.25
 mz,Core 2021,2,6,Epitaph Golem,Uncommon,Creature,Golem,3,5,0,Colorless,5,Regular,0,,1,0.25
 mz,Core 2021,2,34,Epitaph Golem,Uncommon,Creature,Golem,3,5,0,Colorless,5,Regular,0,,1,0.25
@@ -2060,15 +2060,15 @@ mz,Ikoria: Lair of Behemoths,4,13,Facet Reader,Common,Creature,Human Wizard,1,2,
 mz,Ikoria: Lair of Behemoths,4,14,Facet Reader,Common,Creature,Human Wizard,1,2,1,Blue ,2,Regular,0,,1,0.15
 mz,Ikoria: Lair of Behemoths,5,15,Facet Reader,Common,Creature,Human Wizard,1,2,1,Blue ,2,Regular,0,,1,0.15
 mz,Ikoria: Lair of Behemoths,5,18,Facet Reader,Common,Creature,Human Wizard,1,2,1,Blue ,2,Regular,0,,1,0.15
-mz,Core 2021,1,22,Faith's Fetters,Uncommon,Enchantment - Aura,,,,1,White,4,Regular,0,,1,0.25
-mz,Core 2021,1,31,Faith's Fetters,Uncommon,Enchantment - Aura,,,,1,White,4,Regular,0,,1,0.25
-mz,Core 2021,2,8,Faith's Fetters,Uncommon,Enchantment - Aura,,,,1,White,4,Regular,0,,1,0.25
-mz,Core 2021,3,34,Faith's Fetters,Uncommon,Enchantment - Aura,,,,1,White,4,Regular,0,,1,0.25
-mz,Core 2021,4,20,Faith's Fetters,Uncommon,Enchantment - Aura,,,,1,White,4,Regular,0,,1,0.25
-mz,Core 2021,4,25,Faith's Fetters,Uncommon,Enchantment - Aura,,,,1,White,4,Foil,0,,1,0.3
-mz,Core 2021,5,2,Faith's Fetters,Uncommon,Enchantment - Aura,,,,1,White,4,Regular,0,,1,0.25
-mz,Core 2021,5,11,Faith's Fetters,Uncommon,Enchantment - Aura,,,,1,White,4,Regular,0,,1,0.25
-mz,Core 2021,5,30,Faith's Fetters,Uncommon,Enchantment - Aura,,,,1,White,4,Regular,0,,1,0.25
+mz,Core 2021,1,22,Faith's Fetters,Uncommon,Enchantment,,,,1,White,4,Regular,0,,1,0.25
+mz,Core 2021,1,31,Faith's Fetters,Uncommon,Enchantment,,,,1,White,4,Regular,0,,1,0.25
+mz,Core 2021,2,8,Faith's Fetters,Uncommon,Enchantment,,,,1,White,4,Regular,0,,1,0.25
+mz,Core 2021,3,34,Faith's Fetters,Uncommon,Enchantment,,,,1,White,4,Regular,0,,1,0.25
+mz,Core 2021,4,20,Faith's Fetters,Uncommon,Enchantment,,,,1,White,4,Regular,0,,1,0.25
+mz,Core 2021,4,25,Faith's Fetters,Uncommon,Enchantment,,,,1,White,4,Foil,0,,1,0.3
+mz,Core 2021,5,2,Faith's Fetters,Uncommon,Enchantment,,,,1,White,4,Regular,0,,1,0.25
+mz,Core 2021,5,11,Faith's Fetters,Uncommon,Enchantment,,,,1,White,4,Regular,0,,1,0.25
+mz,Core 2021,5,30,Faith's Fetters,Uncommon,Enchantment,,,,1,White,4,Regular,0,,1,0.25
 mz,Core 2021,1,15,Falconer Adept,Uncommon,Creature,Human Soldier,2,3,1,White,4,Regular,0,,1,0.25
 mz,Core 2021,1,30,Falconer Adept,Uncommon,Creature,Human Soldier,2,3,1,White,4,Regular,0,,1,0.25
 mz,Core 2021,2,6,Falconer Adept,Uncommon,Creature,Human Soldier,2,3,1,White,4,Regular,0,,1,0.25
@@ -2335,11 +2335,11 @@ mz,Ikoria: Lair of Behemoths,5,12,Flycatcher Giraffid,Common,Creature,Antelope L
 mz,Ikoria: Lair of Behemoths,5,18,Flycatcher Giraffid,Common,Creature,Antelope Lizard,3,5,1,Green,5,Regular,0,,1,0.15
 mz,Ikoria: Lair of Behemoths,5,26,Flycatcher Giraffid,Common,Creature,Antelope Lizard,3,5,1,Green,5,Regular,0,,1,0.15
 mz,Ikoria: Lair of Behemoths,5,32,Flycatcher Giraffid,Common,Creature,Antelope Lizard,3,5,1,Green,5,Regular,0,,1,0.15
-mz,Ikoria: Lair of Behemoths,2,27,Footfall Crater,Uncommon,Enchantment - Aura,,,,1,Red,1,Regular,1,Cycling,1,0.5
-mz,Ikoria: Lair of Behemoths,3,10,Footfall Crater,Uncommon,Enchantment - Aura,,,,1,Red,1,Regular,1,Cycling,1,0.5
-mz,Ikoria: Lair of Behemoths,3,29,Footfall Crater,Uncommon,Enchantment - Aura,,,,1,Red,1,Regular,1,Cycling,1,0.5
-mz,Ikoria: Lair of Behemoths,4,35,Footfall Crater,Uncommon,Enchantment - Aura,,,,1,Red,1,Regular,1,Cycling,1,0.5
-mz,Ikoria: Lair of Behemoths,5,25,Footfall Crater,Uncommon,Enchantment - Aura,,,,1,Red,1,Regular,1,Cycling,1,0.5
+mz,Ikoria: Lair of Behemoths,2,27,Footfall Crater,Uncommon,Enchantment,,,,1,Red,1,Regular,1,Cycling,1,0.5
+mz,Ikoria: Lair of Behemoths,3,10,Footfall Crater,Uncommon,Enchantment,,,,1,Red,1,Regular,1,Cycling,1,0.5
+mz,Ikoria: Lair of Behemoths,3,29,Footfall Crater,Uncommon,Enchantment,,,,1,Red,1,Regular,1,Cycling,1,0.5
+mz,Ikoria: Lair of Behemoths,4,35,Footfall Crater,Uncommon,Enchantment,,,,1,Red,1,Regular,1,Cycling,1,0.5
+mz,Ikoria: Lair of Behemoths,5,25,Footfall Crater,Uncommon,Enchantment,,,,1,Red,1,Regular,1,Cycling,1,0.5
 mz,Ikoria: Lair of Behemoths,1,2,Forbidden Friendship,Common,Sorcery,,,,1,Red,2,Regular,0,,1,0.15
 mz,Ikoria: Lair of Behemoths,1,10,Forbidden Friendship,Common,Sorcery,,,,1,Red,2,Regular,0,,1,0.15
 mz,Ikoria: Lair of Behemoths,1,32,Forbidden Friendship,Common,Sorcery,,,,1,Red,2,Regular,0,,1,0.15
@@ -2511,19 +2511,19 @@ mz,Core 2021,4,28,Furious Rise,Uncommon,Enchantment,,,,1,Red,3,Regular,0,,1,0.25
 mz,Core 2021,5,8,Furious Rise,Uncommon,Enchantment,,,,1,Red,3,Regular,0,,1,0.25
 mz,Core 2021,5,28,Furious Rise,Uncommon,Enchantment,,,,1,Red,3,Regular,0,,1,0.25
 mz,Core 2021,1,1,Furor of the Bitten,Common,Enchantment,,,,1,Red,1,Regular,0,,1,0.15
-mz,Core 2021,1,4,Furor of the Bitten,Common,Enchantment - Aura,,,,1,Red,1,Regular,0,,1,0.15
+mz,Core 2021,1,4,Furor of the Bitten,Common,Enchantment,,,,1,Red,1,Regular,0,,1,0.15
 mz,Core 2021,1,17,Furor of the Bitten,Common,Enchantment,,,,1,Red,1,Regular,0,,1,0.15
-mz,Core 2021,2,13,Furor of the Bitten,Common,Enchantment - Aura,,,,1,Red,1,Regular,0,,1,0.15
-mz,Core 2021,2,27,Furor of the Bitten,Common,Enchantment - Aura,,,,1,Red,1,Regular,0,,1,0.15
+mz,Core 2021,2,13,Furor of the Bitten,Common,Enchantment,,,,1,Red,1,Regular,0,,1,0.15
+mz,Core 2021,2,27,Furor of the Bitten,Common,Enchantment,,,,1,Red,1,Regular,0,,1,0.15
 mz,Core 2021,2,30,Furor of the Bitten,Common,Enchantment,,,,1,Red,1,Regular,0,,1,0.15
 mz,Core 2021,3,1,Furor of the Bitten,Common,Enchantment,,,,1,Red,1,Regular,0,,1,0.15
-mz,Core 2021,3,9,Furor of the Bitten,Common,Enchantment - Aura,,,,1,Red,1,Regular,0,,1,0.15
-mz,Core 2021,3,11,Furor of the Bitten,Common,Enchantment - Aura,,,,1,Red,1,Regular,0,,1,0.15
+mz,Core 2021,3,9,Furor of the Bitten,Common,Enchantment,,,,1,Red,1,Regular,0,,1,0.15
+mz,Core 2021,3,11,Furor of the Bitten,Common,Enchantment,,,,1,Red,1,Regular,0,,1,0.15
 mz,Core 2021,3,17,Furor of the Bitten,Common,Enchantment,,,,1,Red,1,Regular,0,,1,0.15
 mz,Core 2021,4,11,Furor of the Bitten,Common,Enchantment,,,,1,Red,1,Regular,0,,1,0.15
-mz,Core 2021,4,16,Furor of the Bitten,Common,Enchantment - Aura,,,,1,Red,1,Regular,0,,1,0.15
-mz,Core 2021,4,36,Furor of the Bitten,Common,Enchantment - Aura,,,,1,Red,1,Regular,0,,1,0.15
-mz,Core 2021,5,14,Furor of the Bitten,Common,Enchantment - Aura,,,,1,Red,1,Regular,0,,1,0.15
+mz,Core 2021,4,16,Furor of the Bitten,Common,Enchantment,,,,1,Red,1,Regular,0,,1,0.15
+mz,Core 2021,4,36,Furor of the Bitten,Common,Enchantment,,,,1,Red,1,Regular,0,,1,0.15
+mz,Core 2021,5,14,Furor of the Bitten,Common,Enchantment,,,,1,Red,1,Regular,0,,1,0.15
 mz,Core 2021,5,15,Furor of the Bitten,Common,Enchantment,,,,1,Red,1,Regular,0,,1,0.15
 mz,Core 2021,5,23,Furor of the Bitten,Common,Enchantment,,,,1,Red,1,Regular,0,,1,0.15
 mz,Core 2021,2,1,"Gadrak, the Crown-Scourge",Rare,Creature,Dragon,5,4,1,Red,3,Regular,1,Flying,1,0.5
@@ -3201,29 +3201,29 @@ mz,Core 2021,2,9,Indulging Patrician,Uncommon,Creature,Vampire Noble,1,4,2,"Whit
 mz,Core 2021,3,15,Indulging Patrician,Uncommon,Creature,Vampire Noble,1,4,2,"White, Black",3,Regular,2,"Flying, Lifelink",1,0.25
 mz,Core 2021,4,24,Indulging Patrician,Uncommon,Creature,Vampire Noble,1,4,2,"White, Black",3,Regular,2,"Flying, Lifelink",1,0.25
 mz,Core 2021,5,15,Indulging Patrician,Uncommon,Creature,Vampire Noble,1,4,2,"White, Black",3,Regular,2,"Flying, Lifelink",1,0.25
-mz,Core 2021,1,8,Infernal Scarring,Common,Enchantment - Aura,,,,1,Black,2,Regular,0,,1,0.15
-mz,Core 2021,1,16,Infernal Scarring,Common,Enchantment - Aura,,,,1,Black,2,Regular,0,,1,0.15
-mz,Core 2021,1,30,Infernal Scarring,Common,Enchantment - Aura,,,,1,Black,2,Regular,0,,1,0.15
-mz,Core 2021,1,33,Infernal Scarring,Common,Enchantment - Aura,,,,1,Black,2,Regular,0,,1,0.15
-mz,Core 2021,1,36,Infernal Scarring,Common,Enchantment - Aura,,,,1,Black,2,Regular,0,,1,0.15
-mz,Core 2021,2,3,Infernal Scarring,Common,Enchantment - Aura,,,,1,Black,2,Regular,0,,1,0.15
-mz,Core 2021,2,11,Infernal Scarring,Common,Enchantment - Aura,,,,1,Black,2,Regular,0,,1,0.15
-mz,Core 2021,2,18,Infernal Scarring,Common,Enchantment - Aura,,,,1,Black,2,Regular,0,,1,0.15
-mz,Core 2021,2,26,Infernal Scarring,Common,Enchantment - Aura,,,,1,Black,2,Regular,0,,1,0.15
-mz,Core 2021,3,14,Infernal Scarring,Common,Enchantment - Aura,,,,1,Black,2,Regular,0,,1,0.15
-mz,Core 2021,3,15,Infernal Scarring,Common,Enchantment - Aura,,,,1,Black,2,Regular,0,,1,0.15
-mz,Core 2021,3,19,Infernal Scarring,Common,Enchantment - Aura,,,,1,Black,2,Regular,0,,1,0.15
-mz,Core 2021,3,29,Infernal Scarring,Common,Enchantment - Aura,,,,1,Black,2,Regular,0,,1,0.15
-mz,Core 2021,3,35,Infernal Scarring,Common,Enchantment - Aura,,,,1,Black,2,Regular,0,,1,0.15
-mz,Core 2021,4,6,Infernal Scarring,Common,Enchantment - Aura,,,,1,Black,2,Regular,0,,1,0.15
-mz,Core 2021,4,8,Infernal Scarring,Common,Enchantment - Aura,,,,1,Black,2,Regular,0,,1,0.15
-mz,Core 2021,4,30,Infernal Scarring,Common,Enchantment - Aura,,,,1,Black,2,Regular,0,,1,0.15
-mz,Core 2021,4,34,Infernal Scarring,Common,Enchantment - Aura,,,,1,Black,2,Regular,0,,1,0.15
-mz,Core 2021,4,34,Infernal Scarring,Common,Enchantment - Aura,,,,1,Black,2,Regular,0,,1,0.15
-mz,Core 2021,5,5,Infernal Scarring,Common,Enchantment - Aura,,,,1,Black,2,Regular,0,,1,0.15
-mz,Core 2021,5,9,Infernal Scarring,Common,Enchantment - Aura,,,,1,Black,2,Regular,0,,1,0.15
-mz,Core 2021,5,30,Infernal Scarring,Common,Enchantment - Aura,,,,1,Black,2,Regular,0,,1,0.15
-mz,Core 2021,5,36,Infernal Scarring,Common,Enchantment - Aura,,,,1,Black,2,Regular,0,,1,0.15
+mz,Core 2021,1,8,Infernal Scarring,Common,Enchantment,,,,1,Black,2,Regular,0,,1,0.15
+mz,Core 2021,1,16,Infernal Scarring,Common,Enchantment,,,,1,Black,2,Regular,0,,1,0.15
+mz,Core 2021,1,30,Infernal Scarring,Common,Enchantment,,,,1,Black,2,Regular,0,,1,0.15
+mz,Core 2021,1,33,Infernal Scarring,Common,Enchantment,,,,1,Black,2,Regular,0,,1,0.15
+mz,Core 2021,1,36,Infernal Scarring,Common,Enchantment,,,,1,Black,2,Regular,0,,1,0.15
+mz,Core 2021,2,3,Infernal Scarring,Common,Enchantment,,,,1,Black,2,Regular,0,,1,0.15
+mz,Core 2021,2,11,Infernal Scarring,Common,Enchantment,,,,1,Black,2,Regular,0,,1,0.15
+mz,Core 2021,2,18,Infernal Scarring,Common,Enchantment,,,,1,Black,2,Regular,0,,1,0.15
+mz,Core 2021,2,26,Infernal Scarring,Common,Enchantment,,,,1,Black,2,Regular,0,,1,0.15
+mz,Core 2021,3,14,Infernal Scarring,Common,Enchantment,,,,1,Black,2,Regular,0,,1,0.15
+mz,Core 2021,3,15,Infernal Scarring,Common,Enchantment,,,,1,Black,2,Regular,0,,1,0.15
+mz,Core 2021,3,19,Infernal Scarring,Common,Enchantment,,,,1,Black,2,Regular,0,,1,0.15
+mz,Core 2021,3,29,Infernal Scarring,Common,Enchantment,,,,1,Black,2,Regular,0,,1,0.15
+mz,Core 2021,3,35,Infernal Scarring,Common,Enchantment,,,,1,Black,2,Regular,0,,1,0.15
+mz,Core 2021,4,6,Infernal Scarring,Common,Enchantment,,,,1,Black,2,Regular,0,,1,0.15
+mz,Core 2021,4,8,Infernal Scarring,Common,Enchantment,,,,1,Black,2,Regular,0,,1,0.15
+mz,Core 2021,4,30,Infernal Scarring,Common,Enchantment,,,,1,Black,2,Regular,0,,1,0.15
+mz,Core 2021,4,34,Infernal Scarring,Common,Enchantment,,,,1,Black,2,Regular,0,,1,0.15
+mz,Core 2021,4,34,Infernal Scarring,Common,Enchantment,,,,1,Black,2,Regular,0,,1,0.15
+mz,Core 2021,5,5,Infernal Scarring,Common,Enchantment,,,,1,Black,2,Regular,0,,1,0.15
+mz,Core 2021,5,9,Infernal Scarring,Common,Enchantment,,,,1,Black,2,Regular,0,,1,0.15
+mz,Core 2021,5,30,Infernal Scarring,Common,Enchantment,,,,1,Black,2,Regular,0,,1,0.15
+mz,Core 2021,5,36,Infernal Scarring,Common,Enchantment,,,,1,Black,2,Regular,0,,1,0.15
 mz,Zendikar Rising,1,4,Inordinate Rage,Common,Instant,,,,1,Red,2,Regular,0,,1,0.15
 mz,Zendikar Rising,1,21,Inordinate Rage,Common,Instant,,,,1,Red,2,Regular,0,,1,0.15
 mz,Zendikar Rising,1,33,Inordinate Rage,Common,Instant,,,,1,Red,2,Regular,0,,1,0.15
@@ -3688,12 +3688,12 @@ mz,Ikoria: Lair of Behemoths,4,30,Light of Hope,Common,Instant,,,,1,White,1,Regu
 mz,Ikoria: Lair of Behemoths,4,35,Light of Hope,Common,Instant,,,,1,White,1,Regular,0,,1,0.15
 mz,Ikoria: Lair of Behemoths,5,12,Light of Hope,Common,Instant,,,,1,White,1,Regular,0,,1,0.15
 mz,Ikoria: Lair of Behemoths,5,18,Light of Hope,Common,Instant,,,,1,White,1,Regular,0,,1,0.15
-mz,Core 2021,1,28,Light of Promise,Uncommon,Enchantment - Aura,,,,1,White,3,Regular,0,,1,0.25
-mz,Core 2021,2,7,Light of Promise,Uncommon,Enchantment - Aura,,,,1,White,3,Regular,0,,1,0.25
-mz,Core 2021,4,14,Light of Promise,Uncommon,Enchantment - Aura,,,,1,White,3,Regular,0,,1,0.25
-mz,Core 2021,4,21,Light of Promise,Uncommon,Enchantment - Aura,,,,1,White,3,Regular,0,,1,0.25
-mz,Core 2021,5,11,Light of Promise,Uncommon,Enchantment - Aura,,,,1,White,3,Regular,0,,1,0.25
-mz,Core 2021,5,21,Light of Promise,Uncommon,Enchantment - Aura,,,,1,White,3,Regular,0,,1,0.25
+mz,Core 2021,1,28,Light of Promise,Uncommon,Enchantment,,,,1,White,3,Regular,0,,1,0.25
+mz,Core 2021,2,7,Light of Promise,Uncommon,Enchantment,,,,1,White,3,Regular,0,,1,0.25
+mz,Core 2021,4,14,Light of Promise,Uncommon,Enchantment,,,,1,White,3,Regular,0,,1,0.25
+mz,Core 2021,4,21,Light of Promise,Uncommon,Enchantment,,,,1,White,3,Regular,0,,1,0.25
+mz,Core 2021,5,11,Light of Promise,Uncommon,Enchantment,,,,1,White,3,Regular,0,,1,0.25
+mz,Core 2021,5,21,Light of Promise,Uncommon,Enchantment,,,,1,White,3,Regular,0,,1,0.25
 mz,Core 2021,1,36,"Liliana, Waker of the Dead",Mythic,Planeswalker,,,,1,Black,4,Regular,0,,1,6
 mz,Core 2021,1,17,Liliana's Devotee,Uncommon,Creature,Human Warlock,2,3,1,Black,3,Showcase,0,,1,0.5
 mz,Core 2021,1,20,Liliana's Devotee,Uncommon,Creature,Human Warlock,2,3,1,Black,3,Showcase,0,,1,0.5
@@ -3724,14 +3724,14 @@ mz,Core 2021,5,19,Liliana's Steward,Common,Creature,Zombie,1,2,1,Black,1,Regular
 mz,Core 2021,5,26,Liliana's Steward,Common,Creature,Zombie,1,2,1,Black,1,Regular,0,,1,0.15
 mz,Core 2021,5,34,Liliana's Steward,Common,Creature,Zombie,1,2,1,Black,1,Showcase,0,,1,0.25
 mz,Zendikar Rising,3,11,"Linvala, Shield of Sea Gate",Rare,Creature,Angel Wizard,3,3,2,"White, Blue",3,Regular,1,Flying,1,1
-mz,Zendikar Rising,1,35,Lithoform Blight,Uncommon,Enchantment - Aura,,,,1,Black,2,Regular,0,,1,0.25
-mz,Zendikar Rising,2,10,Lithoform Blight,Uncommon,Enchantment - Aura,,,,1,Black,2,Regular,0,,1,0.25
-mz,Zendikar Rising,3,9,Lithoform Blight,Uncommon,Enchantment - Aura,,,,1,Black,2,Regular,0,,1,0.25
-mz,Zendikar Rising,3,19,Lithoform Blight,Uncommon,Enchantment - Aura,,,,1,Black,2,Regular,0,,1,0.25
-mz,Zendikar Rising,4,16,Lithoform Blight,Uncommon,Enchantment - Aura,,,,1,Black,2,Regular,0,,1,0.25
-mz,Zendikar Rising,4,29,Lithoform Blight,Uncommon,Enchantment - Aura,,,,1,Black,2,Regular,0,,1,0.25
-mz,Zendikar Rising,5,6,Lithoform Blight,Uncommon,Enchantment - Aura,,,,1,Black,2,Regular,0,,1,0.25
-mz,Zendikar Rising,5,16,Lithoform Blight,Uncommon,Enchantment - Aura,,,,1,Black,2,Regular,0,,1,0.25
+mz,Zendikar Rising,1,35,Lithoform Blight,Uncommon,Enchantment,,,,1,Black,2,Regular,0,,1,0.25
+mz,Zendikar Rising,2,10,Lithoform Blight,Uncommon,Enchantment,,,,1,Black,2,Regular,0,,1,0.25
+mz,Zendikar Rising,3,9,Lithoform Blight,Uncommon,Enchantment,,,,1,Black,2,Regular,0,,1,0.25
+mz,Zendikar Rising,3,19,Lithoform Blight,Uncommon,Enchantment,,,,1,Black,2,Regular,0,,1,0.25
+mz,Zendikar Rising,4,16,Lithoform Blight,Uncommon,Enchantment,,,,1,Black,2,Regular,0,,1,0.25
+mz,Zendikar Rising,4,29,Lithoform Blight,Uncommon,Enchantment,,,,1,Black,2,Regular,0,,1,0.25
+mz,Zendikar Rising,5,6,Lithoform Blight,Uncommon,Enchantment,,,,1,Black,2,Regular,0,,1,0.25
+mz,Zendikar Rising,5,16,Lithoform Blight,Uncommon,Enchantment,,,,1,Black,2,Regular,0,,1,0.25
 mz,Zendikar Rising,5,36,Lithoform Engine,Mythic,Artifact,,,,0,Colorless,4,Regular,0,,1,20
 mz,Zendikar Rising,1,5,Living Tempest,Common,Creature,Elemental,3,3,1,Blue,5,Regular,2,"Flash, Flying",1,0.15
 mz,Zendikar Rising,1,18,Living Tempest,Common,Creature,Elemental,3,3,1,Blue,5,Regular,2,"Flash, Flying",1,0.15
@@ -4275,12 +4275,12 @@ mz,Ikoria: Lair of Behemoths,4,35,Mysterious Egg,Common,Creature,Egg,0,2,0,Color
 mz,Ikoria: Lair of Behemoths,5,3,Mysterious Egg,Common,Creature,Egg,0,2,0,Colorless,1,Regular,0,,1,0.15
 mz,Ikoria: Lair of Behemoths,5,12,Mysterious Egg,Common,Creature,Egg,0,2,0,Colorless,1,Regular,0,,1,0.15
 mz,Ikoria: Lair of Behemoths,5,26,Mysterious Egg,Common,Creature,Egg,0,2,0,Colorless,1,Regular,0,,1,0.15
-mz,Ikoria: Lair of Behemoths,1,22,Mystic Subdual,Uncommon,Enchantment - Aura,,,,1,Blue,2,Regular,1,Flash,1,0.5
-mz,Ikoria: Lair of Behemoths,2,14,Mystic Subdual,Uncommon,Enchantment - Aura,,,,1,Blue,2,Regular,1,Flash,1,0.5
-mz,Ikoria: Lair of Behemoths,3,3,Mystic Subdual,Uncommon,Enchantment - Aura,,,,1,Blue,2,Regular,1,Flash,1,0.5
-mz,Ikoria: Lair of Behemoths,3,14,Mystic Subdual,Uncommon,Enchantment - Aura,,,,1,Blue,2,Regular,1,Flash,1,0.5
-mz,Ikoria: Lair of Behemoths,4,15,Mystic Subdual,Uncommon,Enchantment - Aura,,,,1,Blue,2,Regular,1,Flash,1,0.5
-mz,Ikoria: Lair of Behemoths,5,12,Mystic Subdual,Uncommon,Enchantment - Aura,,,,1,Blue,2,Regular,1,Flash,1,0.5
+mz,Ikoria: Lair of Behemoths,1,22,Mystic Subdual,Uncommon,Enchantment,,,,1,Blue,2,Regular,1,Flash,1,0.5
+mz,Ikoria: Lair of Behemoths,2,14,Mystic Subdual,Uncommon,Enchantment,,,,1,Blue,2,Regular,1,Flash,1,0.5
+mz,Ikoria: Lair of Behemoths,3,3,Mystic Subdual,Uncommon,Enchantment,,,,1,Blue,2,Regular,1,Flash,1,0.5
+mz,Ikoria: Lair of Behemoths,3,14,Mystic Subdual,Uncommon,Enchantment,,,,1,Blue,2,Regular,1,Flash,1,0.5
+mz,Ikoria: Lair of Behemoths,4,15,Mystic Subdual,Uncommon,Enchantment,,,,1,Blue,2,Regular,1,Flash,1,0.5
+mz,Ikoria: Lair of Behemoths,5,12,Mystic Subdual,Uncommon,Enchantment,,,,1,Blue,2,Regular,1,Flash,1,0.5
 mz,Ikoria: Lair of Behemoths,2,13,Mythos of Brokkos,Rare,Sorcery,,,,1,Green,4,Regular,0,,1,0.5
 mz,Ikoria: Lair of Behemoths,3,1,Mythos of Brokkos,Rare,Sorcery,,,,1,Green,4,Regular,0,,1,0.5
 mz,Ikoria: Lair of Behemoths,3,14,Mythos of Brokkos,Rare,Sorcery,,,,1,Green,4,Regular,0,,1,0.5
@@ -4301,24 +4301,24 @@ mz,Ikoria: Lair of Behemoths,3,15,Mythos of Vadrok,Rare,Sorcery,,,,1,Red,4,Regul
 mz,Ikoria: Lair of Behemoths,3,29,Mythos of Vadrok,Rare,Sorcery,,,,1,Red,4,Regular,0,,1,0.5
 mz,Ikoria: Lair of Behemoths,5,18,Mythos of Vadrok,Rare,Sorcery,,,,1,Red,4,Regular,0,,1,0.5
 mz,Zendikar Rising,2,31,"Nahiri, Heir of the Ancients",Mythic,Planeswalker,,,,2,"Red, White",4,Foil,0,,1,6
-mz,Zendikar Rising,1,5,Nahiri's Binding,Common,Enchantment - Aura,,,,1,White,3,Regular,0,,1,0.15
-mz,Zendikar Rising,1,8,Nahiri's Binding,Common,Enchantment - Aura,,,,1,White,3,Regular,0,,1,0.15
-mz,Zendikar Rising,1,10,Nahiri's Binding,Common,Enchantment - Aura,,,,1,White,3,Regular,0,,1,0.15
-mz,Zendikar Rising,2,25,Nahiri's Binding,Common,Enchantment - Aura,,,,1,White,3,Regular,0,,1,0.15
-mz,Zendikar Rising,2,31,Nahiri's Binding,Common,Enchantment - Aura,,,,1,White,3,Regular,0,,1,0.15
-mz,Zendikar Rising,2,35,Nahiri's Binding,Common,Enchantment - Aura,,,,1,White,3,Regular,0,,1,0.15
-mz,Zendikar Rising,3,6,Nahiri's Binding,Common,Enchantment - Aura,,,,1,White,3,Regular,0,,1,0.15
-mz,Zendikar Rising,3,15,Nahiri's Binding,Common,Enchantment - Aura,,,,1,White,3,Regular,0,,1,0.15
-mz,Zendikar Rising,3,27,Nahiri's Binding,Common,Enchantment - Aura,,,,1,White,3,Regular,0,,1,0.15
-mz,Zendikar Rising,3,35,Nahiri's Binding,Common,Enchantment - Aura,,,,1,White,3,Regular,0,,1,0.15
-mz,Zendikar Rising,4,9,Nahiri's Binding,Common,Enchantment - Aura,,,,1,White,3,Regular,0,,1,0.15
-mz,Zendikar Rising,4,26,Nahiri's Binding,Common,Enchantment - Aura,,,,1,White,3,Regular,0,,1,0.15
-mz,Zendikar Rising,4,27,Nahiri's Binding,Common,Enchantment - Aura,,,,1,White,3,Regular,0,,1,0.15
-mz,Zendikar Rising,4,33,Nahiri's Binding,Common,Enchantment - Aura,,,,1,White,3,Regular,0,,1,0.15
-mz,Zendikar Rising,5,10,Nahiri's Binding,Common,Enchantment - Aura,,,,1,White,3,Regular,0,,1,0.15
-mz,Zendikar Rising,5,14,Nahiri's Binding,Common,Enchantment - Aura,,,,1,White,3,Regular,0,,1,0.15
-mz,Zendikar Rising,5,24,Nahiri's Binding,Common,Enchantment - Aura,,,,1,White,3,Regular,0,,1,0.15
-mz,Zendikar Rising,5,28,Nahiri's Binding,Common,Enchantment - Aura,,,,1,White,3,Regular,0,,1,0.15
+mz,Zendikar Rising,1,5,Nahiri's Binding,Common,Enchantment,,,,1,White,3,Regular,0,,1,0.15
+mz,Zendikar Rising,1,8,Nahiri's Binding,Common,Enchantment,,,,1,White,3,Regular,0,,1,0.15
+mz,Zendikar Rising,1,10,Nahiri's Binding,Common,Enchantment,,,,1,White,3,Regular,0,,1,0.15
+mz,Zendikar Rising,2,25,Nahiri's Binding,Common,Enchantment,,,,1,White,3,Regular,0,,1,0.15
+mz,Zendikar Rising,2,31,Nahiri's Binding,Common,Enchantment,,,,1,White,3,Regular,0,,1,0.15
+mz,Zendikar Rising,2,35,Nahiri's Binding,Common,Enchantment,,,,1,White,3,Regular,0,,1,0.15
+mz,Zendikar Rising,3,6,Nahiri's Binding,Common,Enchantment,,,,1,White,3,Regular,0,,1,0.15
+mz,Zendikar Rising,3,15,Nahiri's Binding,Common,Enchantment,,,,1,White,3,Regular,0,,1,0.15
+mz,Zendikar Rising,3,27,Nahiri's Binding,Common,Enchantment,,,,1,White,3,Regular,0,,1,0.15
+mz,Zendikar Rising,3,35,Nahiri's Binding,Common,Enchantment,,,,1,White,3,Regular,0,,1,0.15
+mz,Zendikar Rising,4,9,Nahiri's Binding,Common,Enchantment,,,,1,White,3,Regular,0,,1,0.15
+mz,Zendikar Rising,4,26,Nahiri's Binding,Common,Enchantment,,,,1,White,3,Regular,0,,1,0.15
+mz,Zendikar Rising,4,27,Nahiri's Binding,Common,Enchantment,,,,1,White,3,Regular,0,,1,0.15
+mz,Zendikar Rising,4,33,Nahiri's Binding,Common,Enchantment,,,,1,White,3,Regular,0,,1,0.15
+mz,Zendikar Rising,5,10,Nahiri's Binding,Common,Enchantment,,,,1,White,3,Regular,0,,1,0.15
+mz,Zendikar Rising,5,14,Nahiri's Binding,Common,Enchantment,,,,1,White,3,Regular,0,,1,0.15
+mz,Zendikar Rising,5,24,Nahiri's Binding,Common,Enchantment,,,,1,White,3,Regular,0,,1,0.15
+mz,Zendikar Rising,5,28,Nahiri's Binding,Common,Enchantment,,,,1,White,3,Regular,0,,1,0.15
 mz,Zendikar Rising,2,29,Nahiri's Lithoforming,Rare,Sorcery,,,,1,Red,2,Regular,0,,1,1
 mz,Zendikar Rising,3,25,Nahiri's Lithoforming,Rare,Sorcery,,,,1,Red,2,Regular,0,,1,1
 mz,Core 2021,2,11,Necromentia,Rare,Sorcery,,,,1,Black,3,Regular,0,,1,1
@@ -4429,24 +4429,24 @@ mz,Core 2021,5,9,Nine Lives,Rare,Enchantment,,,,1,White,3,Regular,1,Hexproof,1,0
 mz,Zendikar Rising,1,18,Nissa of Shadowed Boughs,Mythic,Planeswalker,,,,2,"Black, Green",4,Regular,1,Landfall,1,10
 mz,Zendikar Rising,2,34,Nissa of Shadowed Boughs,Mythic,Planeswalker,,,,2,"Black, Green",4,Regular,1,Landfall,1,10
 mz,Zendikar Rising,3,20,Nissa of Shadowed Boughs,Mythic,Planeswalker,,,,2,"Black, Green",4,Regular,1,Landfall,1,10
-mz,Zendikar Rising,1,3,Nissa's Zendikon,Common,Enchantment - Aura,,,,1,Green,4,Regular,0,,1,0.15
-mz,Zendikar Rising,1,10,Nissa's Zendikon,Common,Enchantment - Aura,,,,1,Green,4,Regular,0,,1,0.15
-mz,Zendikar Rising,1,20,Nissa's Zendikon,Common,Enchantment - Aura,,,,1,Green,4,Foil,0,,1,0.25
-mz,Zendikar Rising,1,27,Nissa's Zendikon,Common,Enchantment - Aura,,,,1,Green,4,Regular,0,,1,0.15
-mz,Zendikar Rising,2,2,Nissa's Zendikon,Common,Enchantment - Aura,,,,1,Green,4,Regular,0,,1,0.15
-mz,Zendikar Rising,2,3,Nissa's Zendikon,Common,Enchantment - Aura,,,,1,Green,4,Regular,0,,1,0.15
-mz,Zendikar Rising,2,17,Nissa's Zendikon,Common,Enchantment - Aura,,,,1,Green,4,Regular,0,,1,0.15
-mz,Zendikar Rising,3,5,Nissa's Zendikon,Common,Enchantment - Aura,,,,1,Green,4,Foil,0,,1,0.25
-mz,Zendikar Rising,3,6,Nissa's Zendikon,Common,Enchantment - Aura,,,,1,Green,4,Regular,0,,1,0.15
-mz,Zendikar Rising,3,20,Nissa's Zendikon,Common,Enchantment - Aura,,,,1,Green,4,Regular,0,,1,0.15
-mz,Zendikar Rising,1,27,Nissa's Zendikon,Common,Enchantment - Aura,,,,1,Green,4,Regular,0,,1,0.15
-mz,Zendikar Rising,3,30,Nissa's Zendikon,Common,Enchantment - Aura,,,,1,Green,4,Regular,0,,1,0.15
-mz,Zendikar Rising,4,1,Nissa's Zendikon,Common,Enchantment - Aura,,,,1,Green,4,Regular,0,,1,0.15
-mz,Zendikar Rising,4,28,Nissa's Zendikon,Common,Enchantment - Aura,,,,1,Green,4,Regular,0,,1,0.15
-mz,Zendikar Rising,4,34,Nissa's Zendikon,Common,Enchantment - Aura,,,,1,Green,4,Regular,0,,1,0.15
-mz,Zendikar Rising,5,4,Nissa's Zendikon,Common,Enchantment - Aura,,,,1,Green,4,Regular,0,,1,0.15
-mz,Zendikar Rising,5,17,Nissa's Zendikon,Common,Enchantment - Aura,,,,1,Green,4,Regular,0,,1,0.15
-mz,Zendikar Rising,5,21,Nissa's Zendikon,Common,Enchantment - Aura,,,,1,Green,4,Regular,0,,1,0.15
+mz,Zendikar Rising,1,3,Nissa's Zendikon,Common,Enchantment,,,,1,Green,4,Regular,0,,1,0.15
+mz,Zendikar Rising,1,10,Nissa's Zendikon,Common,Enchantment,,,,1,Green,4,Regular,0,,1,0.15
+mz,Zendikar Rising,1,20,Nissa's Zendikon,Common,Enchantment,,,,1,Green,4,Foil,0,,1,0.25
+mz,Zendikar Rising,1,27,Nissa's Zendikon,Common,Enchantment,,,,1,Green,4,Regular,0,,1,0.15
+mz,Zendikar Rising,2,2,Nissa's Zendikon,Common,Enchantment,,,,1,Green,4,Regular,0,,1,0.15
+mz,Zendikar Rising,2,3,Nissa's Zendikon,Common,Enchantment,,,,1,Green,4,Regular,0,,1,0.15
+mz,Zendikar Rising,2,17,Nissa's Zendikon,Common,Enchantment,,,,1,Green,4,Regular,0,,1,0.15
+mz,Zendikar Rising,3,5,Nissa's Zendikon,Common,Enchantment,,,,1,Green,4,Foil,0,,1,0.25
+mz,Zendikar Rising,3,6,Nissa's Zendikon,Common,Enchantment,,,,1,Green,4,Regular,0,,1,0.15
+mz,Zendikar Rising,3,20,Nissa's Zendikon,Common,Enchantment,,,,1,Green,4,Regular,0,,1,0.15
+mz,Zendikar Rising,1,27,Nissa's Zendikon,Common,Enchantment,,,,1,Green,4,Regular,0,,1,0.15
+mz,Zendikar Rising,3,30,Nissa's Zendikon,Common,Enchantment,,,,1,Green,4,Regular,0,,1,0.15
+mz,Zendikar Rising,4,1,Nissa's Zendikon,Common,Enchantment,,,,1,Green,4,Regular,0,,1,0.15
+mz,Zendikar Rising,4,28,Nissa's Zendikon,Common,Enchantment,,,,1,Green,4,Regular,0,,1,0.15
+mz,Zendikar Rising,4,34,Nissa's Zendikon,Common,Enchantment,,,,1,Green,4,Regular,0,,1,0.15
+mz,Zendikar Rising,5,4,Nissa's Zendikon,Common,Enchantment,,,,1,Green,4,Regular,0,,1,0.15
+mz,Zendikar Rising,5,17,Nissa's Zendikon,Common,Enchantment,,,,1,Green,4,Regular,0,,1,0.15
+mz,Zendikar Rising,5,21,Nissa's Zendikon,Common,Enchantment,,,,1,Green,4,Regular,0,,1,0.15
 mz,Zendikar Rising,2,36,Nullpriest of Oblivion,Rare,Creature,Vampire Cleric,2,1,1,Black,2,Regular,3,"Kicker, Menace, Lifelink",1,1.5
 mz,Zendikar Rising,3,21,Nullpriest of Oblivion,Rare,Creature,Vampire Cleric,2,1,1,Black,2,Regular,3,"Kicker, Menace, Lifelink",1,1.5
 mz,Zendikar Rising,1,5,Oblivion's Hunger,Common,Instant,,,,1,Black,2,Regular,0,,1,0.15
@@ -4564,23 +4564,23 @@ mz,Core 2021,5,14,Ornery Dilophosaur,Common,Creature,Dinosaur,2,2,1,Green,4,Regu
 mz,Core 2021,5,15,Ornery Dilophosaur,Common,Creature,Dinosaur,2,2,1,Green,4,Regular,1,Deathtouch,1,0.15
 mz,Core 2021,5,27,Ornery Dilophosaur,Common,Creature,Dinosaur,2,2,1,Green,4,Regular,1,Deathtouch,1,0.15
 mz,Core 2021,5,32,Ornery Dilophosaur,Common,Creature,Dinosaur,2,2,1,Green,4,Regular,1,Deathtouch,1,0.15
-mz,Ikoria: Lair of Behemoths,1,12,Pacifism,Common,Enchantment - Aura,,,,1,White,2,Regular,0,,1,0.15
-mz,Ikoria: Lair of Behemoths,1,14,Pacifism,Common,Enchantment - Aura,,,,1,White,2,Regular,0,,1,0.15
-mz,Ikoria: Lair of Behemoths,1,15,Pacifism,Common,Enchantment - Aura,,,,1,White,2,Regular,0,,1,0.15
-mz,Ikoria: Lair of Behemoths,1,22,Pacifism,Common,Enchantment - Aura,,,,1,White,2,Regular,0,,1,0.15
-mz,Ikoria: Lair of Behemoths,2,4,Pacifism,Common,Enchantment - Aura,,,,1,White,2,Regular,0,,1,0.15
-mz,Ikoria: Lair of Behemoths,2,16,Pacifism,Common,Enchantment - Aura,,,,1,White,2,Regular,0,,1,0.15
-mz,Ikoria: Lair of Behemoths,2,25,Pacifism,Common,Enchantment - Aura,,,,1,White,2,Regular,0,,1,0.15
-mz,Ikoria: Lair of Behemoths,2,27,Pacifism,Common,Enchantment - Aura,,,,1,White,2,Regular,0,,1,0.15
-mz,Ikoria: Lair of Behemoths,3,2,Pacifism,Common,Enchantment - Aura,,,,1,White,2,Regular,0,,1,0.15
-mz,Ikoria: Lair of Behemoths,3,9,Pacifism,Common,Enchantment - Aura,,,,1,White,2,Regular,0,,1,0.15
-mz,Ikoria: Lair of Behemoths,3,18,Pacifism,Common,Enchantment - Aura,,,,1,White,2,Regular,0,,1,0.15
-mz,Ikoria: Lair of Behemoths,4,3,Pacifism,Common,Enchantment - Aura,,,,1,White,2,Regular,0,,1,0.15
-mz,Ikoria: Lair of Behemoths,5,15,Pacifism,Common,Enchantment - Aura,,,,1,White,2,Regular,0,,1,0.15
-mz,Ikoria: Lair of Behemoths,5,18,Pacifism,Common,Enchantment - Aura,,,,1,White,2,Regular,0,,1,0.15
-mz,Ikoria: Lair of Behemoths,5,30,Pacifism,Common,Enchantment - Aura,,,,1,White,2,Regular,0,,1,0.15
-mz,Ikoria: Lair of Behemoths,5,32,Pacifism,Common,Enchantment - Aura,,,,1,White,2,Regular,0,,1,0.15
-mz,Ikoria: Lair of Behemoths,5,35,Pacifism,Common,Enchantment - Aura,,,,1,White,2,Foil,0,,1,0.25
+mz,Ikoria: Lair of Behemoths,1,12,Pacifism,Common,Enchantment,,,,1,White,2,Regular,0,,1,0.15
+mz,Ikoria: Lair of Behemoths,1,14,Pacifism,Common,Enchantment,,,,1,White,2,Regular,0,,1,0.15
+mz,Ikoria: Lair of Behemoths,1,15,Pacifism,Common,Enchantment,,,,1,White,2,Regular,0,,1,0.15
+mz,Ikoria: Lair of Behemoths,1,22,Pacifism,Common,Enchantment,,,,1,White,2,Regular,0,,1,0.15
+mz,Ikoria: Lair of Behemoths,2,4,Pacifism,Common,Enchantment,,,,1,White,2,Regular,0,,1,0.15
+mz,Ikoria: Lair of Behemoths,2,16,Pacifism,Common,Enchantment,,,,1,White,2,Regular,0,,1,0.15
+mz,Ikoria: Lair of Behemoths,2,25,Pacifism,Common,Enchantment,,,,1,White,2,Regular,0,,1,0.15
+mz,Ikoria: Lair of Behemoths,2,27,Pacifism,Common,Enchantment,,,,1,White,2,Regular,0,,1,0.15
+mz,Ikoria: Lair of Behemoths,3,2,Pacifism,Common,Enchantment,,,,1,White,2,Regular,0,,1,0.15
+mz,Ikoria: Lair of Behemoths,3,9,Pacifism,Common,Enchantment,,,,1,White,2,Regular,0,,1,0.15
+mz,Ikoria: Lair of Behemoths,3,18,Pacifism,Common,Enchantment,,,,1,White,2,Regular,0,,1,0.15
+mz,Ikoria: Lair of Behemoths,4,3,Pacifism,Common,Enchantment,,,,1,White,2,Regular,0,,1,0.15
+mz,Ikoria: Lair of Behemoths,5,15,Pacifism,Common,Enchantment,,,,1,White,2,Regular,0,,1,0.15
+mz,Ikoria: Lair of Behemoths,5,18,Pacifism,Common,Enchantment,,,,1,White,2,Regular,0,,1,0.15
+mz,Ikoria: Lair of Behemoths,5,30,Pacifism,Common,Enchantment,,,,1,White,2,Regular,0,,1,0.15
+mz,Ikoria: Lair of Behemoths,5,32,Pacifism,Common,Enchantment,,,,1,White,2,Regular,0,,1,0.15
+mz,Ikoria: Lair of Behemoths,5,35,Pacifism,Common,Enchantment,,,,1,White,2,Foil,0,,1,0.25
 mz,Core 2021,1,28,Pack Leader,Rare,Creature,Dog,2,2,1,White,2,Regular,0,,1,1.5
 mz,Core 2021,2,12,Pack Leader,Rare,Creature,Dog,2,2,1,White,2,Regular,0,,1,1.5
 mz,Core 2021,4,9,Pack Leader,Rare,Creature,Dog,2,2,1,White,2,Regular,0,,1,1.5
@@ -4593,7 +4593,7 @@ mz,Zendikar Rising,4,27,Paired Tactician,Uncommon,Creature,Human Warrior,3,2,1,W
 mz,Zendikar Rising,4,30,Paired Tactician,Uncommon,Creature,Human Warrior,3,2,1,White,3,Regular,0,,1,0.15
 mz,Zendikar Rising,5,15,Paired Tactician,Uncommon,Creature,Human Warrior,3,2,1,White,3,Regular,0,,1,0.15
 mz,Core 2021,1,26,Palladium Myr,Uncommon,Artifact Creature,Myr,2,2,0,Colorless,3,Regular,0,,1,0.25
-mz,Core 2021,1,27,Palladium Myr,Uncommon,Creature,Myr,2,2,0,Colorless,3,Foil,0,,1,0.5
+mz,Core 2021,1,27,Palladium Myr,Uncommon,Artifact Creature,Myr,2,2,0,Colorless,3,Foil,0,,1,0.5
 mz,Core 2021,2,1,Palladium Myr,Uncommon,Artifact Creature,Myr,2,2,0,Colorless,3,Regular,0,,1,0.25
 mz,Core 2021,2,7,Palladium Myr,Uncommon,Artifact Creature,Myr,2,2,0,Colorless,3,Regular,0,,1,0.25
 mz,Core 2021,3,6,Palladium Myr,Uncommon,Artifact Creature,Myr,2,2,0,Colorless,3,Regular,0,,1,0.25
@@ -5177,26 +5177,26 @@ mz,Core 2021,4,9,Return to Nature,Common,Instant,,,,1,Green,2,Regular,0,,1,0.15
 mz,Core 2021,4,13,Return to Nature,Common,Instant,,,,1,Green,2,Regular,0,,1,0.15
 mz,Core 2021,5,2,Return to Nature,Common,Instant,,,,1,Green,2,Regular,0,,1,0.15
 mz,Core 2021,5,24,Return to Nature,Common,Instant,,,,1,Green,2,Regular,0,,1,0.15
-mz,Core 2021,1,1,Revitalize,Common,instant,,,,1,White,2,Regular,0,,1,0.15
-mz,Core 2021,1,13,Revitalize,Common,instant,,,,1,White,2,Regular,0,,1,0.15
-mz,Core 2021,1,22,Revitalize,Common,instant,,,,1,White,2,Regular,0,,1,0.15
-mz,Core 2021,1,25,Revitalize,Common,instant,,,,1,White,2,Regular,0,,1,0.15
-mz,Core 2021,2,1,Revitalize,Common,instant,,,,1,White,2,Regular,0,,1,0.15
-mz,Core 2021,2,4,Revitalize,Common,instant,,,,1,White,2,Regular,0,,1,0.15
-mz,Core 2021,2,7,Revitalize,Common,instant,,,,1,White,2,Regular,0,,1,0.15
-mz,Core 2021,2,33,Revitalize,Common,instant,,,,1,White,2,Regular,0,,1,0.15
-mz,Core 2021,3,1,Revitalize,Common,instant,,,,1,White,2,Regular,0,,1,0.15
-mz,Core 2021,3,4,Revitalize,Common,instant,,,,1,White,2,Regular,0,,1,0.15
-mz,Core 2021,3,8,Revitalize,Common,instant,,,,1,White,2,Regular,0,,1,0.15
-mz,Core 2021,3,34,Revitalize,Common,instant,,,,1,White,2,Regular,0,,1,0.15
-mz,Core 2021,4,1,Revitalize,Common,instant,,,,1,White,2,Regular,0,,1,0.15
-mz,Core 2021,4,13,Revitalize,Common,instant,,,,1,White,2,Regular,0,,1,0.15
-mz,Core 2021,4,22,Revitalize,Common,instant,,,,1,White,2,Regular,0,,1,0.15
-mz,Core 2021,4,32,Revitalize,Common,instant,,,,1,White,2,Regular,0,,1,0.15
-mz,Core 2021,5,15,Revitalize,Common,instant,,,,1,White,2,Regular,0,,1,0.15
-mz,Core 2021,5,18,Revitalize,Common,instant,,,,1,White,2,Regular,0,,1,0.15
-mz,Core 2021,5,25,Revitalize,Common,instant,,,,1,White,2,Regular,0,,1,0.15
-mz,Core 2021,5,28,Revitalize,Common,instant,,,,1,White,2,Regular,0,,1,0.15
+mz,Core 2021,1,1,Revitalize,Common,Instant,,,,1,White,2,Regular,0,,1,0.15
+mz,Core 2021,1,13,Revitalize,Common,Instant,,,,1,White,2,Regular,0,,1,0.15
+mz,Core 2021,1,22,Revitalize,Common,Instant,,,,1,White,2,Regular,0,,1,0.15
+mz,Core 2021,1,25,Revitalize,Common,Instant,,,,1,White,2,Regular,0,,1,0.15
+mz,Core 2021,2,1,Revitalize,Common,Instant,,,,1,White,2,Regular,0,,1,0.15
+mz,Core 2021,2,4,Revitalize,Common,Instant,,,,1,White,2,Regular,0,,1,0.15
+mz,Core 2021,2,7,Revitalize,Common,Instant,,,,1,White,2,Regular,0,,1,0.15
+mz,Core 2021,2,33,Revitalize,Common,Instant,,,,1,White,2,Regular,0,,1,0.15
+mz,Core 2021,3,1,Revitalize,Common,Instant,,,,1,White,2,Regular,0,,1,0.15
+mz,Core 2021,3,4,Revitalize,Common,Instant,,,,1,White,2,Regular,0,,1,0.15
+mz,Core 2021,3,8,Revitalize,Common,Instant,,,,1,White,2,Regular,0,,1,0.15
+mz,Core 2021,3,34,Revitalize,Common,Instant,,,,1,White,2,Regular,0,,1,0.15
+mz,Core 2021,4,1,Revitalize,Common,Instant,,,,1,White,2,Regular,0,,1,0.15
+mz,Core 2021,4,13,Revitalize,Common,Instant,,,,1,White,2,Regular,0,,1,0.15
+mz,Core 2021,4,22,Revitalize,Common,Instant,,,,1,White,2,Regular,0,,1,0.15
+mz,Core 2021,4,32,Revitalize,Common,Instant,,,,1,White,2,Regular,0,,1,0.15
+mz,Core 2021,5,15,Revitalize,Common,Instant,,,,1,White,2,Regular,0,,1,0.15
+mz,Core 2021,5,18,Revitalize,Common,Instant,,,,1,White,2,Regular,0,,1,0.15
+mz,Core 2021,5,25,Revitalize,Common,Instant,,,,1,White,2,Regular,0,,1,0.15
+mz,Core 2021,5,28,Revitalize,Common,Instant,,,,1,White,2,Regular,0,,1,0.15
 mz,Core 2021,1,22,Rewind,Uncommon,Instant,,,,1,Blue,4,Regular,0,,1,0.25
 mz,Core 2021,1,32,Rewind,Uncommon,Instant,,,,1,Blue,4,Regular,0,,1,0.25
 mz,Core 2021,2,33,Rewind,Uncommon,Instant,,,,1,Blue,4,Regular,0,,1,0.25
@@ -5334,19 +5334,19 @@ mz,Ikoria: Lair of Behemoths,4,20,Rooting Moloch,Uncommon,Creature,Lizard,4,4,1,
 mz,Ikoria: Lair of Behemoths,5,1,Rooting Moloch,Uncommon,Creature,Lizard,4,4,1,Red,5,Regular,1,Cycling,1,0.25
 mz,Ikoria: Lair of Behemoths,5,3,Rooting Moloch,Uncommon,Creature,Lizard,4,4,1,Red,5,Regular,1,Cycling,1,0.25
 mz,Ikoria: Lair of Behemoths,5,9,Rooting Moloch,Uncommon,Creature,Lizard,4,4,1,Red,5,Foil,1,Cycling,1,0.5
-mz,Core 2021,1,12,Rousing Read,Common,Enchantment - Aura,,,,1,Blue,3,Regular,0,,1,0.15
-mz,Core 2021,2,1,Rousing Read,Common,Enchantment - Aura,,,,1,Blue,3,Regular,0,,1,0.15
-mz,Core 2021,2,15,Rousing Read,Common,Enchantment - Aura,,,,1,Blue,3,Regular,0,,1,0.15
-mz,Core 2021,2,20,Rousing Read,Common,Enchantment - Aura,,,,1,Blue,3,Regular,0,,1,0.15
-mz,Core 2021,3,23,Rousing Read,Common,Enchantment - Aura,,,,1,Blue,3,Regular,0,,1,0.15
-mz,Core 2021,3,25,Rousing Read,Common,Enchantment - Aura,,,,1,Blue,3,Regular,0,,1,0.15
-mz,Core 2021,3,32,Rousing Read,Common,Enchantment - Aura,,,,1,Blue,3,Regular,0,,1,0.15
-mz,Core 2021,4,5,Rousing Read,Common,Enchantment - Aura,,,,1,Blue,3,Regular,0,,1,0.15
-mz,Core 2021,4,24,Rousing Read,Common,Enchantment - Aura,,,,1,Blue,3,Regular,0,,1,0.15
-mz,Core 2021,4,25,Rousing Read,Common,Enchantment - Aura,,,,1,Blue,3,Regular,0,,1,0.15
-mz,Core 2021,5,27,Rousing Read,Common,Enchantment - Aura,,,,1,Blue,3,Regular,0,,1,0.15
-mz,Core 2021,5,29,Rousing Read,Common,Enchantment - Aura,,,,1,Blue,3,Regular,0,,1,0.15
-mz,Core 2021,5,32,Rousing Read,Common,Enchantment - Aura,,,,1,Blue,3,Regular,0,,1,0.15
+mz,Core 2021,1,12,Rousing Read,Common,Enchantment,,,,1,Blue,3,Regular,0,,1,0.15
+mz,Core 2021,2,1,Rousing Read,Common,Enchantment,,,,1,Blue,3,Regular,0,,1,0.15
+mz,Core 2021,2,15,Rousing Read,Common,Enchantment,,,,1,Blue,3,Regular,0,,1,0.15
+mz,Core 2021,2,20,Rousing Read,Common,Enchantment,,,,1,Blue,3,Regular,0,,1,0.15
+mz,Core 2021,3,23,Rousing Read,Common,Enchantment,,,,1,Blue,3,Regular,0,,1,0.15
+mz,Core 2021,3,25,Rousing Read,Common,Enchantment,,,,1,Blue,3,Regular,0,,1,0.15
+mz,Core 2021,3,32,Rousing Read,Common,Enchantment,,,,1,Blue,3,Regular,0,,1,0.15
+mz,Core 2021,4,5,Rousing Read,Common,Enchantment,,,,1,Blue,3,Regular,0,,1,0.15
+mz,Core 2021,4,24,Rousing Read,Common,Enchantment,,,,1,Blue,3,Regular,0,,1,0.15
+mz,Core 2021,4,25,Rousing Read,Common,Enchantment,,,,1,Blue,3,Regular,0,,1,0.15
+mz,Core 2021,5,27,Rousing Read,Common,Enchantment,,,,1,Blue,3,Regular,0,,1,0.15
+mz,Core 2021,5,29,Rousing Read,Common,Enchantment,,,,1,Blue,3,Regular,0,,1,0.15
+mz,Core 2021,5,32,Rousing Read,Common,Enchantment,,,,1,Blue,3,Regular,0,,1,0.15
 mz,Ikoria: Lair of Behemoths,1,27,Rugged Highlands,Common,Land,,,,0,Colorless,0,Regular,0,,1,0.15
 mz,Ikoria: Lair of Behemoths,2,15,Rugged Highlands,Common,Land,,,,0,Colorless,0,Regular,0,,1,0.15
 mz,Ikoria: Lair of Behemoths,2,25,Rugged Highlands,Common,Land,,,,0,Colorless,0,Regular,0,,1,0.15
@@ -5749,23 +5749,23 @@ mz,Ikoria: Lair of Behemoths,4,36,Serrated Scorpion,Common,Creature,Scorpion,1,2
 mz,Ikoria: Lair of Behemoths,5,11,Serrated Scorpion,Common,Creature,Scorpion,1,2,1,Black,1,Regular,0,,1,0.15
 mz,Ikoria: Lair of Behemoths,5,23,Serrated Scorpion,Common,Creature,Scorpion,1,2,1,Black,1,Regular,0,,1,0.15
 mz,Ikoria: Lair of Behemoths,5,24,Serrated Scorpion,Common,Creature,Scorpion,1,2,1,Black,1,Regular,0,,1,0.15
-mz,Core 2021,1,5,Setessan Training,Common,Enchantment - Aura,,,,1,Green,2,Regular,0,,1,0.15
-mz,Core 2021,1,7,Setessan Training,Common,Enchantment - Aura,,,,1,Green,2,Regular,0,,1,0.15
-mz,Core 2021,1,25,Setessan Training,Common,Enchantment - Aura,,,,1,Green,2,Regular,0,,1,0.15
-mz,Core 2021,1,28,Setessan Training,Common,Enchantment - Aura,,,,1,Green,2,Regular,0,,1,0.15
-mz,Core 2021,2,3,Setessan Training,Common,Enchantment - Aura,,,,1,Green,2,Regular,0,,1,0.15
-mz,Core 2021,2,21,Setessan Training,Common,Enchantment - Aura,,,,1,Green,2,Regular,0,,1,0.15
-mz,Core 2021,2,24,Setessan Training,Common,Enchantment - Aura,,,,1,Green,2,Regular,0,,1,0.15
-mz,Core 2021,2,25,Setessan Training,Common,Enchantment - Aura,,,,1,Green,2,Regular,0,,1,0.15
-mz,Core 2021,3,11,Setessan Training,Common,Enchantment - Aura,,,,1,Green,2,Regular,0,,1,0.15
-mz,Core 2021,3,12,Setessan Training,Common,Enchantment - Aura,,,,1,Green,2,Regular,0,,1,0.15
-mz,Core 2021,4,2,Setessan Training,Common,Enchantment - Aura,,,,1,Green,2,Regular,0,,1,0.15
-mz,Core 2021,4,10,Setessan Training,Common,Enchantment - Aura,,,,1,Green,2,Regular,0,,1,0.15
-mz,Core 2021,4,12,Setessan Training,Common,Enchantment - Aura,,,,1,Green,2,Regular,0,,1,0.15
-mz,Core 2021,4,14,Setessan Training,Common,Enchantment - Aura,,,,1,Green,2,Regular,0,,1,0.15
-mz,Core 2021,5,8,Setessan Training,Common,Enchantment - Aura,,,,1,Green,2,Regular,0,,1,0.15
-mz,Core 2021,5,12,Setessan Training,Common,Enchantment - Aura,,,,1,Green,2,Regular,0,,1,0.15
-mz,Core 2021,5,13,Setessan Training,Common,Enchantment - Aura,,,,1,Green,2,Regular,0,,1,0.15
+mz,Core 2021,1,5,Setessan Training,Common,Enchantment,,,,1,Green,2,Regular,0,,1,0.15
+mz,Core 2021,1,7,Setessan Training,Common,Enchantment,,,,1,Green,2,Regular,0,,1,0.15
+mz,Core 2021,1,25,Setessan Training,Common,Enchantment,,,,1,Green,2,Regular,0,,1,0.15
+mz,Core 2021,1,28,Setessan Training,Common,Enchantment,,,,1,Green,2,Regular,0,,1,0.15
+mz,Core 2021,2,3,Setessan Training,Common,Enchantment,,,,1,Green,2,Regular,0,,1,0.15
+mz,Core 2021,2,21,Setessan Training,Common,Enchantment,,,,1,Green,2,Regular,0,,1,0.15
+mz,Core 2021,2,24,Setessan Training,Common,Enchantment,,,,1,Green,2,Regular,0,,1,0.15
+mz,Core 2021,2,25,Setessan Training,Common,Enchantment,,,,1,Green,2,Regular,0,,1,0.15
+mz,Core 2021,3,11,Setessan Training,Common,Enchantment,,,,1,Green,2,Regular,0,,1,0.15
+mz,Core 2021,3,12,Setessan Training,Common,Enchantment,,,,1,Green,2,Regular,0,,1,0.15
+mz,Core 2021,4,2,Setessan Training,Common,Enchantment,,,,1,Green,2,Regular,0,,1,0.15
+mz,Core 2021,4,10,Setessan Training,Common,Enchantment,,,,1,Green,2,Regular,0,,1,0.15
+mz,Core 2021,4,12,Setessan Training,Common,Enchantment,,,,1,Green,2,Regular,0,,1,0.15
+mz,Core 2021,4,14,Setessan Training,Common,Enchantment,,,,1,Green,2,Regular,0,,1,0.15
+mz,Core 2021,5,8,Setessan Training,Common,Enchantment,,,,1,Green,2,Regular,0,,1,0.15
+mz,Core 2021,5,12,Setessan Training,Common,Enchantment,,,,1,Green,2,Regular,0,,1,0.15
+mz,Core 2021,5,13,Setessan Training,Common,Enchantment,,,,1,Green,2,Regular,0,,1,0.15
 mz,Core 2021,1,27,Shacklegeuist,Rare,Creature,Spirit,2,2,1,Blue,2,Regular,1,Flying,1,0.75
 mz,Core 2021,2,29,Shacklegeuist,Rare,Creature,Spirit,2,2,1,Blue,2,Regular,1,Flying,1,0.75
 mz,Core 2021,4,23,Shacklegeuist,Rare,Creature,Spirit,2,2,1,Blue,2,Regular,1,Flying,1,0.75
@@ -5925,22 +5925,22 @@ mz,Core 2021,4,14,Silversmote Ghoul,Uncommon,Creature,Zombie Vampire,3,1,1,Black
 mz,Core 2021,4,16,Silversmote Ghoul,Uncommon,Creature,Zombie Vampire,3,1,1,Black,3,Regular,0,,1,0.25
 mz,Core 2021,5,1,Silversmote Ghoul,Uncommon,Creature,Zombie Vampire,3,1,1,Black,3,Foil,0,,1,0.4
 mz,Core 2021,5,10,Silversmote Ghoul,Uncommon,Creature,Zombie Vampire,3,1,1,Black,3,Regular,0,,1,0.25
-mz,Zendikar Rising,1,3,Sizzling Barrage,Common,instant,,,,1,Red,2,Regular,0,,1,0.15
-mz,Zendikar Rising,1,18,Sizzling Barrage,Common,instant,,,,1,Red,2,Regular,0,,1,0.15
-mz,Zendikar Rising,1,34,Sizzling Barrage,Common,instant,,,,1,Red,2,Regular,0,,1,0.15
-mz,Zendikar Rising,2,8,Sizzling Barrage,Common,instant,,,,1,Red,2,Regular,0,,1,0.15
-mz,Zendikar Rising,2,10,Sizzling Barrage,Common,instant,,,,1,Red,2,Regular,0,,1,0.15
-mz,Zendikar Rising,2,11,Sizzling Barrage,Common,instant,,,,1,Red,2,Regular,0,,1,0.15
-mz,Zendikar Rising,3,17,Sizzling Barrage,Common,instant,,,,1,Red,2,Regular,0,,1,0.15
-mz,Zendikar Rising,3,27,Sizzling Barrage,Common,instant,,,,1,Red,2,Regular,0,,1,0.15
-mz,Zendikar Rising,3,31,Sizzling Barrage,Common,instant,,,,1,Red,2,Regular,0,,1,0.15
-mz,Zendikar Rising,3,33,Sizzling Barrage,Common,instant,,,,1,Red,2,Regular,0,,1,0.15
-mz,Zendikar Rising,4,1,Sizzling Barrage,Common,instant,,,,1,Red,2,Regular,0,,1,0.15
-mz,Zendikar Rising,4,10,Sizzling Barrage,Common,instant,,,,1,Red,2,Regular,0,,1,0.15
-mz,Zendikar Rising,4,20,Sizzling Barrage,Common,instant,,,,1,Red,2,Regular,0,,1,0.15
-mz,Zendikar Rising,5,5,Sizzling Barrage,Common,instant,,,,1,Red,2,Regular,0,,1,0.15
-mz,Zendikar Rising,5,13,Sizzling Barrage,Common,instant,,,,1,Red,2,Regular,0,,1,0.15
-mz,Zendikar Rising,5,31,Sizzling Barrage,Common,instant,,,,1,Red,2,Regular,0,,1,0.15
+mz,Zendikar Rising,1,3,Sizzling Barrage,Common,Instant,,,,1,Red,2,Regular,0,,1,0.15
+mz,Zendikar Rising,1,18,Sizzling Barrage,Common,Instant,,,,1,Red,2,Regular,0,,1,0.15
+mz,Zendikar Rising,1,34,Sizzling Barrage,Common,Instant,,,,1,Red,2,Regular,0,,1,0.15
+mz,Zendikar Rising,2,8,Sizzling Barrage,Common,Instant,,,,1,Red,2,Regular,0,,1,0.15
+mz,Zendikar Rising,2,10,Sizzling Barrage,Common,Instant,,,,1,Red,2,Regular,0,,1,0.15
+mz,Zendikar Rising,2,11,Sizzling Barrage,Common,Instant,,,,1,Red,2,Regular,0,,1,0.15
+mz,Zendikar Rising,3,17,Sizzling Barrage,Common,Instant,,,,1,Red,2,Regular,0,,1,0.15
+mz,Zendikar Rising,3,27,Sizzling Barrage,Common,Instant,,,,1,Red,2,Regular,0,,1,0.15
+mz,Zendikar Rising,3,31,Sizzling Barrage,Common,Instant,,,,1,Red,2,Regular,0,,1,0.15
+mz,Zendikar Rising,3,33,Sizzling Barrage,Common,Instant,,,,1,Red,2,Regular,0,,1,0.15
+mz,Zendikar Rising,4,1,Sizzling Barrage,Common,Instant,,,,1,Red,2,Regular,0,,1,0.15
+mz,Zendikar Rising,4,10,Sizzling Barrage,Common,Instant,,,,1,Red,2,Regular,0,,1,0.15
+mz,Zendikar Rising,4,20,Sizzling Barrage,Common,Instant,,,,1,Red,2,Regular,0,,1,0.15
+mz,Zendikar Rising,5,5,Sizzling Barrage,Common,Instant,,,,1,Red,2,Regular,0,,1,0.15
+mz,Zendikar Rising,5,13,Sizzling Barrage,Common,Instant,,,,1,Red,2,Regular,0,,1,0.15
+mz,Zendikar Rising,5,31,Sizzling Barrage,Common,Instant,,,,1,Red,2,Regular,0,,1,0.15
 mz,Core 2021,1,11,Skeleton Archer,Common,Creature,Skeleton Archer,3,3,1,Black,4,Regular,0,,1,0.15
 mz,Core 2021,1,20,Skeleton Archer,Common,Creature,Skeleton Archer,3,3,1,Black,4,Regular,0,,1,0.15
 mz,Core 2021,1,24,Skeleton Archer,Common,Creature,Skeleton Archer,3,3,1,Black,4,Regular,0,,1,0.15
@@ -6179,22 +6179,22 @@ mz,Zendikar Rising,5,28,Soaring Thought-Thief,Uncommon,Creature,Human Rogue,1,3,
 mz,Core 2021,2,6,Solemn Simulacrum,Rare,Artifact Creature,Golem,2,2,0,Colorless,4,Regular,0,,1,5
 mz,Core 2021,3,34,Solemn Simulacrum,Rare,Artifact Creature,Golem,2,2,0,Colorless,4,Regular,0,,1,5
 mz,Core 2021,5,20,Solemn Simulacrum,Rare,Artifact Creature,Golem,2,2,0,Colorless,4,Borderless,0,,1,6
-mz,Ikoria: Lair of Behemoths,1,13,Solid Footing,Common,Enchantment - Aura,,,,1,White,1,Regular,1,Flash,1,0.15
-mz,Ikoria: Lair of Behemoths,1,24,Solid Footing,Common,Enchantment - Aura,,,,1,White,1,Regular,1,Flash,1,0.15
-mz,Ikoria: Lair of Behemoths,1,32,Solid Footing,Common,Enchantment - Aura,,,,1,White,1,Regular,1,Flash,1,0.15
-mz,Ikoria: Lair of Behemoths,2,19,Solid Footing,Common,Enchantment - Aura,,,,1,White,1,Regular,1,Flash,1,0.15
-mz,Ikoria: Lair of Behemoths,2,22,Solid Footing,Common,Enchantment - Aura,,,,1,White,1,Regular,1,Flash,1,0.15
-mz,Ikoria: Lair of Behemoths,2,33,Solid Footing,Common,Enchantment - Aura,,,,1,White,1,Regular,1,Flash,1,0.15
-mz,Ikoria: Lair of Behemoths,3,1,Solid Footing,Common,Enchantment - Aura,,,,1,White,1,Regular,1,Flash,1,0.15
-mz,Ikoria: Lair of Behemoths,3,7,Solid Footing,Common,Enchantment - Aura,,,,1,White,1,Regular,1,Flash,1,0.15
-mz,Ikoria: Lair of Behemoths,3,34,Solid Footing,Common,Enchantment - Aura,,,,1,White,1,Regular,1,Flash,1,0.15
-mz,Ikoria: Lair of Behemoths,4,10,Solid Footing,Common,Enchantment - Aura,,,,1,White,1,Regular,1,Flash,1,0.15
-mz,Ikoria: Lair of Behemoths,4,16,Solid Footing,Common,Enchantment - Aura,,,,1,White,1,Regular,1,Flash,1,0.15
-mz,Ikoria: Lair of Behemoths,4,30,Solid Footing,Common,Enchantment - Aura,,,,1,White,1,Regular,1,Flash,1,0.15
-mz,Ikoria: Lair of Behemoths,5,14,Solid Footing,Common,Enchantment - Aura,,,,1,White,1,Regular,1,Flash,1,0.15
-mz,Ikoria: Lair of Behemoths,5,27,Solid Footing,Common,Enchantment - Aura,,,,1,White,1,Regular,1,Flash,1,0.15
-mz,Ikoria: Lair of Behemoths,5,32,Solid Footing,Common,Enchantment - Aura,,,,1,White,1,Regular,1,Flash,1,0.15
-mz,Ikoria: Lair of Behemoths,5,35,Solid Footing,Common,Enchantment - Aura,,,,1,White,1,Regular,1,Flash,1,0.15
+mz,Ikoria: Lair of Behemoths,1,13,Solid Footing,Common,Enchantment,,,,1,White,1,Regular,1,Flash,1,0.15
+mz,Ikoria: Lair of Behemoths,1,24,Solid Footing,Common,Enchantment,,,,1,White,1,Regular,1,Flash,1,0.15
+mz,Ikoria: Lair of Behemoths,1,32,Solid Footing,Common,Enchantment,,,,1,White,1,Regular,1,Flash,1,0.15
+mz,Ikoria: Lair of Behemoths,2,19,Solid Footing,Common,Enchantment,,,,1,White,1,Regular,1,Flash,1,0.15
+mz,Ikoria: Lair of Behemoths,2,22,Solid Footing,Common,Enchantment,,,,1,White,1,Regular,1,Flash,1,0.15
+mz,Ikoria: Lair of Behemoths,2,33,Solid Footing,Common,Enchantment,,,,1,White,1,Regular,1,Flash,1,0.15
+mz,Ikoria: Lair of Behemoths,3,1,Solid Footing,Common,Enchantment,,,,1,White,1,Regular,1,Flash,1,0.15
+mz,Ikoria: Lair of Behemoths,3,7,Solid Footing,Common,Enchantment,,,,1,White,1,Regular,1,Flash,1,0.15
+mz,Ikoria: Lair of Behemoths,3,34,Solid Footing,Common,Enchantment,,,,1,White,1,Regular,1,Flash,1,0.15
+mz,Ikoria: Lair of Behemoths,4,10,Solid Footing,Common,Enchantment,,,,1,White,1,Regular,1,Flash,1,0.15
+mz,Ikoria: Lair of Behemoths,4,16,Solid Footing,Common,Enchantment,,,,1,White,1,Regular,1,Flash,1,0.15
+mz,Ikoria: Lair of Behemoths,4,30,Solid Footing,Common,Enchantment,,,,1,White,1,Regular,1,Flash,1,0.15
+mz,Ikoria: Lair of Behemoths,5,14,Solid Footing,Common,Enchantment,,,,1,White,1,Regular,1,Flash,1,0.15
+mz,Ikoria: Lair of Behemoths,5,27,Solid Footing,Common,Enchantment,,,,1,White,1,Regular,1,Flash,1,0.15
+mz,Ikoria: Lair of Behemoths,5,32,Solid Footing,Common,Enchantment,,,,1,White,1,Regular,1,Flash,1,0.15
+mz,Ikoria: Lair of Behemoths,5,35,Solid Footing,Common,Enchantment,,,,1,White,1,Regular,1,Flash,1,0.15
 mz,Ikoria: Lair of Behemoths,2,16,Song of Creation,Rare,Enchantment,,,,3,"Green, Blue, Red",4,Regular,0,,1,1.5
 mz,Ikoria: Lair of Behemoths,2,21,Song of Creation,Rare,Enchantment,,,,3,"Green, Blue, Red",4,Regular,0,,1,1.5
 mz,Ikoria: Lair of Behemoths,3,17,Song of Creation,Rare,Enchantment,,,,3,"Green, Blue, Red",4,Regular,0,,1,1.5
@@ -6395,25 +6395,25 @@ mz,Zendikar Rising,2,8,Squad Commander,Rare,Creature,Kor Warrior,3,3,1,White,4,R
 mz,Zendikar Rising,3,8,Squad Commander,Rare,Creature,Kor Warrior,3,3,1,White,4,Regular,0,,1,0.75
 mz,Zendikar Rising,4,30,Squad Commander,Rare,Creature,Kor Warrior,3,3,1,White,4,Regular,0,,1,0.75
 mz,Zendikar Rising,5,21,Squad Commander,Rare,Creature,Kor Warrior,3,3,1,White,4,Regular,0,,1,0.75
-mz,Ikoria: Lair of Behemoths,1,22,Startling Development,Common,instant,,,,1,Blue,2,Regular,0,,1,0.15
-mz,Ikoria: Lair of Behemoths,1,34,Startling Development,Common,instant,,,,1,Blue,2,Regular,0,,1,0.15
-mz,Ikoria: Lair of Behemoths,1,36,Startling Development,Common,instant,,,,1,Blue,2,Regular,0,,1,0.15
-mz,Ikoria: Lair of Behemoths,2,4,Startling Development,Common,instant,,,,1,Blue,2,Regular,0,,1,0.15
-mz,Ikoria: Lair of Behemoths,2,19,Startling Development,Common,instant,,,,1,Blue,2,Regular,0,,1,0.15
-mz,Ikoria: Lair of Behemoths,2,35,Startling Development,Common,instant,,,,1,Blue,2,Regular,0,,1,0.15
-mz,Ikoria: Lair of Behemoths,2,36,Startling Development,Common,instant,,,,1,Blue,2,Regular,0,,1,0.15
-mz,Ikoria: Lair of Behemoths,3,2,Startling Development,Common,instant,,,,1,Blue,2,Foil,0,,1,0.5
-mz,Ikoria: Lair of Behemoths,3,12,Startling Development,Common,instant,,,,1,Blue,2,Regular,0,,1,0.15
-mz,Ikoria: Lair of Behemoths,3,19,Startling Development,Common,instant,,,,1,Blue,2,Regular,0,,1,0.15
-mz,Ikoria: Lair of Behemoths,3,28,Startling Development,Common,instant,,,,1,Blue,2,Regular,0,,1,0.15
-mz,Ikoria: Lair of Behemoths,4,1,Startling Development,Common,instant,,,,1,Blue,2,Regular,0,,1,0.15
-mz,Ikoria: Lair of Behemoths,4,6,Startling Development,Common,instant,,,,1,Blue,2,Regular,0,,1,0.15
-mz,Ikoria: Lair of Behemoths,4,11,Startling Development,Common,instant,,,,1,Blue,2,Regular,0,,1,0.15
-mz,Ikoria: Lair of Behemoths,4,27,Startling Development,Common,instant,,,,1,Blue,2,Regular,0,,1,0.15
-mz,Ikoria: Lair of Behemoths,5,4,Startling Development,Common,instant,,,,1,Blue,2,Regular,0,,1,0.15
-mz,Ikoria: Lair of Behemoths,5,19,Startling Development,Common,instant,,,,1,Blue,2,Regular,0,,1,0.15
-mz,Ikoria: Lair of Behemoths,5,22,Startling Development,Common,instant,,,,1,Blue,2,Regular,0,,1,0.15
-mz,Ikoria: Lair of Behemoths,1,36,Startling Development,Common,instant,,,,1,Blue,2,Regular,0,,1,0.15
+mz,Ikoria: Lair of Behemoths,1,22,Startling Development,Common,Instant,,,,1,Blue,2,Regular,0,,1,0.15
+mz,Ikoria: Lair of Behemoths,1,34,Startling Development,Common,Instant,,,,1,Blue,2,Regular,0,,1,0.15
+mz,Ikoria: Lair of Behemoths,1,36,Startling Development,Common,Instant,,,,1,Blue,2,Regular,0,,1,0.15
+mz,Ikoria: Lair of Behemoths,2,4,Startling Development,Common,Instant,,,,1,Blue,2,Regular,0,,1,0.15
+mz,Ikoria: Lair of Behemoths,2,19,Startling Development,Common,Instant,,,,1,Blue,2,Regular,0,,1,0.15
+mz,Ikoria: Lair of Behemoths,2,35,Startling Development,Common,Instant,,,,1,Blue,2,Regular,0,,1,0.15
+mz,Ikoria: Lair of Behemoths,2,36,Startling Development,Common,Instant,,,,1,Blue,2,Regular,0,,1,0.15
+mz,Ikoria: Lair of Behemoths,3,2,Startling Development,Common,Instant,,,,1,Blue,2,Foil,0,,1,0.5
+mz,Ikoria: Lair of Behemoths,3,12,Startling Development,Common,Instant,,,,1,Blue,2,Regular,0,,1,0.15
+mz,Ikoria: Lair of Behemoths,3,19,Startling Development,Common,Instant,,,,1,Blue,2,Regular,0,,1,0.15
+mz,Ikoria: Lair of Behemoths,3,28,Startling Development,Common,Instant,,,,1,Blue,2,Regular,0,,1,0.15
+mz,Ikoria: Lair of Behemoths,4,1,Startling Development,Common,Instant,,,,1,Blue,2,Regular,0,,1,0.15
+mz,Ikoria: Lair of Behemoths,4,6,Startling Development,Common,Instant,,,,1,Blue,2,Regular,0,,1,0.15
+mz,Ikoria: Lair of Behemoths,4,11,Startling Development,Common,Instant,,,,1,Blue,2,Regular,0,,1,0.15
+mz,Ikoria: Lair of Behemoths,4,27,Startling Development,Common,Instant,,,,1,Blue,2,Regular,0,,1,0.15
+mz,Ikoria: Lair of Behemoths,5,4,Startling Development,Common,Instant,,,,1,Blue,2,Regular,0,,1,0.15
+mz,Ikoria: Lair of Behemoths,5,19,Startling Development,Common,Instant,,,,1,Blue,2,Regular,0,,1,0.15
+mz,Ikoria: Lair of Behemoths,5,22,Startling Development,Common,Instant,,,,1,Blue,2,Regular,0,,1,0.15
+mz,Ikoria: Lair of Behemoths,1,36,Startling Development,Common,Instant,,,,1,Blue,2,Regular,0,,1,0.15
 mz,Core 2021,1,11,Staunch Shieldmate,Common,Creature,Dwarf Soldier,1,3,1,White,1,Regular,0,,1,0.15
 mz,Core 2021,1,16,Staunch Shieldmate,Common,Creature,Dwarf Soldier,1,3,1,White,1,Regular,0,,1,0.15
 mz,Core 2021,1,29,Staunch Shieldmate,Common,Creature,Dwarf Soldier,1,3,1,White,1,Regular,0,,1,0.15
@@ -6768,25 +6768,25 @@ mz,Core 2021,3,7,Teferi's Ageless Insight,Rare,Enchantment,,,,1,Blue,4,Regular,0
 mz,Core 2021,4,26,Teferi's Ageless Insight,Rare,Enchantment,,,,1,Blue,4,Foil,0,,1,2.5
 mz,Core 2021,5,25,Teferi's Ageless Insight,Rare,Enchantment,,,,1,Blue,4,Regular,0,,1,2
 mz,Core 2021,5,33,Teferi's Ageless Insight,Rare,Enchantment,,,,1,Blue,4,Showcase,0,,1,2
-mz,Core 2021,1,3,Teferi's Protégé,Common,Creature,Human Wizard,2,3,1,Blue,3,Showcase,0,,1,0.25
-mz,Core 2021,1,5,Teferi's Protégé,Common,Creature,Human Wizard,2,3,1,Blue,3,Regular,0,,1,0.15
-mz,Core 2021,1,10,Teferi's Protégé,Common,Creature,Human Wizard,2,3,1,Blue,3,Regular,0,,1,0.15
-mz,Core 2021,2,5,Teferi's Protégé,Common,Creature,Human Wizard,2,3,1,Blue,3,Regular,0,,1,0.15
-mz,Core 2021,2,9,Teferi's Protégé,Common,Creature,Human Wizard,2,3,1,Blue,3,Showcase,0,,1,0.25
-mz,Core 2021,2,24,Teferi's Protégé,Common,Creature,Human Wizard,2,3,1,Blue,3,Regular,0,,1,0.15
-mz,Core 2021,2,25,Teferi's Protégé,Common,Creature,Human Wizard,2,3,1,Blue,3,Regular,0,,1,0.15
-mz,Core 2021,2,32,Teferi's Protégé,Common,Creature,Human Wizard,2,3,1,Blue,3,Regular,0,,1,0.15
-mz,Core 2021,3,2,Teferi's Protégé,Common,Creature,Human Wizard,2,3,1,Blue,3,Regular,0,,1,0.15
-mz,Core 2021,3,6,Teferi's Protégé,Common,Creature,Human Wizard,2,3,1,Blue,3,Regular,0,,1,0.15
-mz,Core 2021,3,21,Teferi's Protégé,Common,Creature,Human Wizard,2,3,1,Blue,3,Regular,0,,1,0.15
-mz,Core 2021,4,1,Teferi's Protégé,Common,Creature,Human Wizard,2,3,1,Blue,3,Regular,0,,1,0.15
-mz,Core 2021,4,13,Teferi's Protégé,Common,Creature,Human Wizard,2,3,1,Blue,3,Regular,0,,1,0.15
-mz,Core 2021,4,14,Teferi's Protégé,Common,Creature,Human Wizard,2,3,1,Blue,3,Showcase,0,,1,0.25
-mz,Core 2021,4,35,Teferi's Protégé,Common,Creature,Human Wizard,2,3,1,Blue,3,Showcase,0,,1,0.25
-mz,Core 2021,5,4,Teferi's Protégé,Common,Creature,Human Wizard,2,3,1,Blue,3,Regular,0,,1,0.15
-mz,Core 2021,5,16,Teferi's Protégé,Common,Creature,Human Wizard,2,3,1,Blue,3,Regular,0,,1,0.15
-mz,Core 2021,5,24,Teferi's Protégé,Common,Creature,Human Wizard,2,3,1,Blue,3,Regular,0,,1,0.15
-mz,Core 2021,5,31,Teferi's Protégé,Common,Creature,Human Wizard,2,3,1,Blue,3,Showcase,0,,1,0.25
+mz,Core 2021,1,3,Teferi's Prot̩g̩,Common,Creature,Human Wizard,2,3,1,Blue,3,Showcase,0,,1,0.25
+mz,Core 2021,1,5,Teferi's Prot̩g̩,Common,Creature,Human Wizard,2,3,1,Blue,3,Regular,0,,1,0.15
+mz,Core 2021,1,10,Teferi's Prot̩g̩,Common,Creature,Human Wizard,2,3,1,Blue,3,Regular,0,,1,0.15
+mz,Core 2021,2,5,Teferi's Prot̩g̩,Common,Creature,Human Wizard,2,3,1,Blue,3,Regular,0,,1,0.15
+mz,Core 2021,2,9,Teferi's Prot̩g̩,Common,Creature,Human Wizard,2,3,1,Blue,3,Showcase,0,,1,0.25
+mz,Core 2021,2,24,Teferi's Prot̩g̩,Common,Creature,Human Wizard,2,3,1,Blue,3,Regular,0,,1,0.15
+mz,Core 2021,2,25,Teferi's Prot̩g̩,Common,Creature,Human Wizard,2,3,1,Blue,3,Regular,0,,1,0.15
+mz,Core 2021,2,32,Teferi's Prot̩g̩,Common,Creature,Human Wizard,2,3,1,Blue,3,Regular,0,,1,0.15
+mz,Core 2021,3,2,Teferi's Prot̩g̩,Common,Creature,Human Wizard,2,3,1,Blue,3,Regular,0,,1,0.15
+mz,Core 2021,3,6,Teferi's Prot̩g̩,Common,Creature,Human Wizard,2,3,1,Blue,3,Regular,0,,1,0.15
+mz,Core 2021,3,21,Teferi's Prot̩g̩,Common,Creature,Human Wizard,2,3,1,Blue,3,Regular,0,,1,0.15
+mz,Core 2021,4,1,Teferi's Prot̩g̩,Common,Creature,Human Wizard,2,3,1,Blue,3,Regular,0,,1,0.15
+mz,Core 2021,4,13,Teferi's Prot̩g̩,Common,Creature,Human Wizard,2,3,1,Blue,3,Regular,0,,1,0.15
+mz,Core 2021,4,14,Teferi's Prot̩g̩,Common,Creature,Human Wizard,2,3,1,Blue,3,Showcase,0,,1,0.25
+mz,Core 2021,4,35,Teferi's Prot̩g̩,Common,Creature,Human Wizard,2,3,1,Blue,3,Showcase,0,,1,0.25
+mz,Core 2021,5,4,Teferi's Prot̩g̩,Common,Creature,Human Wizard,2,3,1,Blue,3,Regular,0,,1,0.15
+mz,Core 2021,5,16,Teferi's Prot̩g̩,Common,Creature,Human Wizard,2,3,1,Blue,3,Regular,0,,1,0.15
+mz,Core 2021,5,24,Teferi's Prot̩g̩,Common,Creature,Human Wizard,2,3,1,Blue,3,Regular,0,,1,0.15
+mz,Core 2021,5,31,Teferi's Prot̩g̩,Common,Creature,Human Wizard,2,3,1,Blue,3,Showcase,0,,1,0.25
 mz,Core 2021,1,9,Teferi's Tutelage,Uncommon,Enchantment,,,,1,Blue,3,Regular,0,,1,0.75
 mz,Core 2021,1,35,Teferi's Tutelage,Uncommon,Enchantment,,,,1,Blue,3,Regular,0,,1,0.75
 mz,Core 2021,3,32,Teferi's Tutelage,Uncommon,Enchantment,,,,1,Blue,3,Regular,0,,1,0.75
@@ -6987,8 +6987,8 @@ mz,Ikoria: Lair of Behemoths,4,2,Titanoth Rex,Uncommon,Creature,Dinosaur Beast,1
 mz,Ikoria: Lair of Behemoths,4,34,Titanoth Rex,Uncommon,Creature,Dinosaur Beast,11,11,1,Green,9,Regular,2,"Cycling, Trample",1,0.5
 mz,Ikoria: Lair of Behemoths,5,11,Titanoth Rex,Uncommon,Creature,Dinosaur Beast,11,11,1,Green,9,Regular,2,"Cycling, Trample",1,0.5
 mz,Ikoria: Lair of Behemoths,5,23,Titanoth Rex,Uncommon,Creature,Dinosaur Beast,11,11,1,Green,9,Regular,2,"Cycling, Trample",1,0.5
-mz,Ikoria: Lair of Behemoths,3,6,Titans' Nest,Rare,Enchantment - Aura,,,,3,"Black, Green, Blue",4,Regular,0,,1,0.75
-mz,Ikoria: Lair of Behemoths,5,36,Titans' Nest,Rare,Enchantment - Aura,,,,3,"Black, Green, Blue",4,Regular,0,,1,0.75
+mz,Ikoria: Lair of Behemoths,3,6,Titans' Nest,Rare,Enchantment,,,,3,"Black, Green, Blue",4,Regular,0,,1,0.75
+mz,Ikoria: Lair of Behemoths,5,36,Titans' Nest,Rare,Enchantment,,,,3,"Black, Green, Blue",4,Regular,0,,1,0.75
 mz,Core 2021,1,4,Tolarian Kraken,Uncommon,Creature,Kraken,4,6,1,Blue,6,Regular,0,,1,0.25
 mz,Core 2021,1,26,Tolarian Kraken,Uncommon,Creature,Kraken,4,6,1,Blue,6,Foil,0,,1,0.5
 mz,Core 2021,2,3,Tolarian Kraken,Uncommon,Creature,Kraken,4,6,1,Blue,6,Regular,0,,1,0.25

@@ -89,13 +89,75 @@ finalMTG <- merge(MTG_norep, setMTG)
 ```
 ###Data Viz
 ```{r}
+###Figure showing Total cards rarities pulled by set
+count <- ggplot(setMTG, aes(set, Total, fill = set)) +
+  geom_histogram(stat = "identity") +
+  facet_wrap(~rarity) +
+  scale_color_brewer(palette = "Set1") + theme_classic() + 
+  geom_smooth(method = lm, se = TRUE) + 
+  labs(x = "Set", y = "Total Cards by Rarity")
+count
+```
+```{r}
+type <- ggplot(finalMTG, aes(card_type, total, fill = set)) +
+  geom_histogram(stat = "identity") +
+  facet_wrap(~rarity) +
+  theme_classic() + 
+  theme(axis.text.x = element_text( 
+                           size = 12, angle = 90))+
+  geom_smooth(method = lm, se = TRUE) + 
+  labs(x = "Card Type", y = "Total Cards by Card Type")
+type
+```
+```{r}
+cardtype <- finalMTG %>%
+ group_by(set, rarity, card_type, n) %>%
+  summarise(total_type = sum(total), n = n()) 
+
+###Displays all card types pulled in each set
+ggplot(cardtype, aes(card_type, n, fill = set)) +
+  geom_bar(stat = "identity") +
+  coord_flip() + 
+  labs(fill = "", x = "Card Type", y = "Total Number of Cards")
+
+
+###Displays all card types pulled in each set by Rarity
+ggplot(cardtype, aes(card_type, n, fill = rarity)) +
+  geom_bar(stat = "identity") +
+  facet_wrap(~set) +
+  coord_flip() + 
+  labs(fill = "", x = "Card Type", y = "Total Number of Cards")
+ 
+
+```
+
+```{r}
+ggplot(cardtype, aes(card_type, total_type, fill = set)) +
+  geom_bar(stat = "identity") +
+  coord_flip() + 
+  labs(fill = "", x = "Card Type", y = "Total Number of Cards")
+```
+
+
+
+```{r}
+##Total rarity by evenness
 Evenness <- ggplot(finalMTG, aes(total, Evenness, color = rarity)) + 
   geom_point(size = 1.5) +
   facet_wrap(~set) +
   scale_color_brewer(palette = "Set1") + theme_classic() + 
   geom_smooth(method = lm, se = TRUE) + 
-  labs(x = "Total Cards", y = "Evenness")
+  labs(x = "Box Number", y = "Evenness")
 Evenness
+
+###Total rarity by simpsons index
+Richness <- ggplot(finalMTG, aes(total, Simpson, color = rarity)) + 
+  geom_point(size = 1.5) +
+  facet_wrap(~set) +
+  scale_color_brewer(palette = "Set1") + theme_classic() + 
+  geom_smooth(method = lm, se = TRUE) + 
+  labs(x = "Box Number", y = "Simpson Index")
+Richness
 ```
 ###Stats
 ```{r}
