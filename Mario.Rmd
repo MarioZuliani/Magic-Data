@@ -138,8 +138,6 @@ ggplot(cardtype, aes(card_type, total_type, fill = set)) +
   labs(fill = "", x = "Card Type", y = "Total Number of Cards")
 ```
 
-
-
 ```{r}
 ##Total rarity by evenness
 Evenness <- ggplot(finalMTG, aes(total, Evenness, color = rarity)) + 
@@ -159,6 +157,18 @@ Richness <- ggplot(finalMTG, aes(total, Simpson, color = rarity)) +
   labs(x = "Box Number", y = "Simpson Index")
 Richness
 ```
+
+```{r}
+ggplot(cardtype, aes(set, total_type, color = card_type)) +
+  geom_boxplot() 
+ggplot(cardtype, aes(set, total_type, color = rarity)) +
+  geom_boxplot() 
+ggplot(cardtype, aes(rarity, total_type)) +
+  geom_boxplot() 
+ggplot(cardtype, aes(rarity, total_type, color = set)) +
+  geom_boxplot() 
+```
+
 ###Stats
 ```{r}
 m1 <- glm(Evenness ~ set*rarity, family = "quasipoisson", data = finalMTG)
