@@ -199,20 +199,23 @@ ggplot(cardtype, aes(rarity, total_type, fill = set)) +
 ```{r}
 ggplot(packprice, aes(pack_rep, Total_Value, fill = set)) +
   geom_boxplot() +
-  labs(fill = "", x = "Total Value", y = "Pack Number") +theme_classic() + theme(axis.text.x = element_text(angle = 90))
+  labs(fill = "", x = "Pack Number", y = "Total Value") +theme_classic() + theme(axis.text.x = element_text(angle = 90))
 ###Plot of Pack values
 ggplot(packprice, aes(pack_rep, Total_Value, fill = set)) +
   geom_bar(stat = "identity") +
-  labs(fill = "", x = "Total Value", y = "Pack number") +theme_classic() + theme(axis.text.x = element_text(angle = 90))
+  labs(fill = "", x = "Pack Number", y = "Total Value") +theme_classic() + theme(axis.text.x = element_text(angle = 90))
 ggplot(packprice, aes(rep, Total_Value, fill = set)) +
   geom_boxplot() +
-  labs(fill = "", x = "Total Value", y = "Box Number") +theme_classic()
+  labs(fill = "", x = "Box Number", y = "Total Value") +theme_classic()
 ###Plots of Box values
 ggplot(boxprice, aes(rep, Total_Value, fill = set)) +
   geom_bar(stat = "identity") +
-  labs(fill = "", x = "Total Value", y = "Box Number") +theme_classic()
+  labs(fill = "", x = "Box Number", y = "Total Valuer") +theme_classic()
+#Plot showing value of each set
+ggplot(boxprice, aes(set, Total_Value, fill = set)) +
+  geom_boxplot() +
+  labs(fill = "", x = "Box Number", y = "Total Value") +theme_classic()
 ```
-
 ###Stats
 ```{r}
 ###Total number of cards by set and rarity. (Seems rarity is significant, but no significance in post-hoc analysis)
@@ -250,7 +253,36 @@ anova(m5, test = "Chisq")
 e5 <- emmeans(m5, pairwise~set*rep)
 e5
 ```
-
+```{r}
+###Stats for overall value of each set. (Shows that there is a significance between sets. Significance Between Ikoria and Core 2021, and Core 2021 and Zendikar Rising)
+m6 <- glm(Total_Value ~ set, family = "quasipoisson", data = boxprice)
+anova(m6, test = "Chisq")
+e6 <- emmeans(m6, pairwise~set)
+e6
+```
+```{r}
+##Statistics showing the significance between Boxes pulled for each set. There is significance between some of the boxes with Ikoria seeming to have the higher Total values compared to certain other boxes from other sets.
+m7 <- glm(Total_Value ~ set*rep, family = "poisson", data = boxprice)
+anova(m7, test = "Chisq")
+e7 <- emmeans(m7, pairwise~set*rep)
+e7
+```
+```{r}
+###Statistics showing difference in Total Values based on pack number (No significance)
+m8 <- glm(Total_Value ~ pack_rep, family = "quasipoisson", data = packprice)
+anova(m8, test = "Chisq")
+e8 <- emmeans(m8, pairwise~pack_rep)
+e8
+```
+```{r}
+###Stats showing significance of Total value from a pack based on the set. Seems to be some significance but not sure how important this information is. (Went through all post-hoc p-values, none were significant)
+m9 <- glm(Total_Value ~ pack_rep*set, family = "quasipoisson", data = packprice)
+anova(m9, test = "Chisq")
+e9 <- emmeans(m9, pairwise~pack_rep*set)
+e9
+```
 ###Findings:
 1) Pulling creature type cards seems to be much higher than pulling any of the other card types in the game (m4 stats). All other card types show no significance between one another.
 2) There was seen to be no significant difference between pulling a rare card and mythic card in these sets (m2 stats), while there is a significance between common and rare cards(Most likely since every pack has 9 commons and 1 Rare). However there was no significance between common and mythic cards which seems really strange.
+3) There is significance in the overal value of the 3 sets. Core 2021 had the lowest value pulled from all boxes when compared to Ikoria and Zendikar rising, while there is no significant difference between Ikoria and Zendikar Rising.
+4) Purchasing a box of Ikoria is better than purchasing a box of any of the other sets???
