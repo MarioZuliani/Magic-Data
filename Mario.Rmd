@@ -8,7 +8,7 @@ output: html_document
 ```{r setup, include=FALSE}
 library(ggplot2)
 library(tidyverse)
-library(dplyr)
+library(dplyr)  
 library(vegan)
 library(emmeans)
 setwd("/R Packages/Magic The Gathering")
@@ -87,6 +87,23 @@ setMTG$Evenness <- Evenness
 ##Merge Data back to the main dataset
 finalMTG <- merge(MTG_norep, setMTG)
 ```
+```{r}
+###Card Price Setup
+MTGPrice <- read_csv("MTG_data.csv")
+packprice <- MTGPrice %>%
+  group_by(set, rep, pack_rep) %>%
+  summarise(x = sum(price))
+boxprice <- MTGPrice %>%
+  group_by(set, rep) %>%
+  summarise(x = sum(price))
+
+packprice$pack_rep <- as.factor(packprice$pack_rep)
+packprice$rep <- as.factor(packprice$rep)
+boxprice$rep <- as.factor(boxprice$rep)
+names(packprice)[4] <- "Total_Value"
+names(boxprice)[3] <- "Total_Value"
+
+```
 ###Data Viz
 ```{r}
 ###Figure showing Total cards rarities pulled by set
@@ -130,14 +147,16 @@ ggplot(cardtype, aes(card_type, n, fill = rarity)) +
  
 
 ```
-
 ```{r}
+###Boxplot showing the total number of cards pulled by card type, filled by set.(Shows that creature is the most significant card type. See m4 stats.)
 ggplot(cardtype, aes(card_type, total_type, fill = set)) +
   geom_bar(stat = "identity") +
   coord_flip() + 
-  labs(fill = "", x = "Card Type", y = "Total Number of Cards")
+  labs(fill = "", x = "Card Type", y = "Total Number of Cards") +theme_classic()
+###Tried running the above image as a boxplot but does not look too appealing.
+ggplot(cardtype, aes(card_type, total_type, color = set)) +
+  geom_boxplot() +theme_classic() + ylab("Total Number of Cards") + xlab("Card Type") +theme(axis.text.x = element_text(angle = 90))
 ```
-
 ```{r}
 ##Total rarity by evenness
 Evenness <- ggplot(finalMTG, aes(total, Evenness, color = rarity)) + 
@@ -165,14 +184,73 @@ ggplot(cardtype, aes(set, total_type, color = rarity)) +
   geom_boxplot() 
 ggplot(cardtype, aes(rarity, total_type)) +
   geom_boxplot() 
+###Boxplot showing the total cards by rarity filled by set.
 ggplot(cardtype, aes(rarity, total_type, color = set)) +
-  geom_boxplot() 
+  geom_boxplot() +theme_classic() + ylab("Total Number of Cards") + xlab("Card Rarity")
+```
+
+```{r}
+###Tried to put the previous figure as a barplot but not the biggest fan of the way this one looks.
+ggplot(cardtype, aes(rarity, total_type, fill = set)) +
+  geom_bar(stat = "identity") +
+  coord_flip() + 
+  labs(fill = "", x = "Card Rarity", y = "Total Number of Cards") +theme_classic()
+```
+```{r}
+ggplot(packprice, aes(pack_rep, Total_Value, fill = set)) +
+  geom_boxplot() +
+  labs(fill = "", x = "Total Value", y = "Pack Number") +theme_classic() + theme(axis.text.x = element_text(angle = 90))
+###Plot of Pack values
+ggplot(packprice, aes(pack_rep, Total_Value, fill = set)) +
+  geom_bar(stat = "identity") +
+  labs(fill = "", x = "Total Value", y = "Pack number") +theme_classic() + theme(axis.text.x = element_text(angle = 90))
+ggplot(packprice, aes(rep, Total_Value, fill = set)) +
+  geom_boxplot() +
+  labs(fill = "", x = "Total Value", y = "Box Number") +theme_classic()
+###Plots of Box values
+ggplot(boxprice, aes(rep, Total_Value, fill = set)) +
+  geom_bar(stat = "identity") +
+  labs(fill = "", x = "Total Value", y = "Box Number") +theme_classic()
 ```
 
 ###Stats
 ```{r}
-m1 <- glm(Evenness ~ set*rarity, family = "quasipoisson", data = finalMTG)
+###Total number of cards by set and rarity. (Seems rarity is significant, but no significance in post-hoc analysis)
+m1 <- glm(total_type ~ set*rarity, family = "quasipoisson", data = cardtype)
 anova(m1, test = "Chisq")
 e1 <- emmeans(m1, pairwise~set|rarity)
 e1
 ```
+```{r}
+###Total number of cards by just rarity (there is a significance but that is because each pack has a set number of commons, uncommons, and rares)
+m2 <- glm(total_type ~ rarity, family = "quasipoisson", data = cardtype)
+anova(m2, test = "Chisq")
+e2 <- emmeans(m2, pairwise~rarity)
+e2
+```
+```{r}
+###Significance in terms of card type by set
+m3 <- glm(total_type ~ set*card_type, family = "quasipoisson", data = cardtype)
+anova(m3, test = "Chisq")
+e3 <- emmeans(m3, pairwise~set|card_type)
+e3
+``` 
+
+```{r}
+###Shows significance in terms of card type. emmeans shows that there is significnce between creatures and all other card types in the game.
+m4 <- glm(total_type ~ card_type, family = "quasipoisson", data = cardtype)
+anova(m4, test = "Chisq")
+e4 <- emmeans(m4, pairwise~card_type)
+e4
+```
+```{r}
+###Stats for significance between each box by set (Ran as a poisson). 
+m5 <- glm(Total_Value ~ set*rep, family = "poisson", data = boxprice)
+anova(m5, test = "Chisq")
+e5 <- emmeans(m5, pairwise~set*rep)
+e5
+```
+
+###Findings:
+1) Pulling creature type cards seems to be much higher than pulling any of the other card types in the game (m4 stats). All other card types show no significance between one another.
+2) There was seen to be no significant difference between pulling a rare card and mythic card in these sets (m2 stats), while there is a significance between common and rare cards(Most likely since every pack has 9 commons and 1 Rare). However there was no significance between common and mythic cards which seems really strange.
